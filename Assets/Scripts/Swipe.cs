@@ -19,6 +19,7 @@ public class Swipe : MonoBehaviour
     private void Update()
     {
         if (!isActive) return;
+
         if (Input.GetMouseButtonDown(0))
         {
             startPosition = Input.mousePosition;
@@ -38,7 +39,7 @@ public class Swipe : MonoBehaviour
     {
         float angle = Vector2.SignedAngle(Vector2.right, swipeVector);
 
-        if (angle >= -45f && angle <= 135f)
+        if (angle >= -45f && angle <= 45f)
         {
             onSwipeRight?.Invoke();
         }
@@ -50,7 +51,7 @@ public class Swipe : MonoBehaviour
         {
             onSwipeLeft?.Invoke();
         }
-        else if (angle <- 45f && angle > -135f)
+        else if (angle < -45f && angle > -135f)
         {
             onSwipeDown?.Invoke();
         }
