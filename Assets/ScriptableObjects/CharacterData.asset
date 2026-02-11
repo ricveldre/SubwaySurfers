@@ -15,5 +15,5 @@ MonoBehaviour:
   jumpAnimationName: Jump
   moveAnimationName: SmallJump
   rolllAnimationName: Roll
-  loseAnimationName: Lose
+  loseAnimationName: Hit
   runAnimationName: Run

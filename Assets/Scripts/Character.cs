@@ -15,23 +15,33 @@ public class Character : MonoBehaviour
     private float distanceToMove = 2f;
     [SerializeField]
     private float moveDuration = 0.2f;
+    [SerializeField]
+    private Transform characterStartPivot;
     private bool isGrounded = true;
     private bool isMoving = false;
     private bool isRolling = false;
     private bool isActive = false;
-    private void Start()
+    private void Awake()
     {
+        characterRigidBody = GetComponent<Rigidbody>();
+    }
+    public void StartGame()
+    {
+        isRolling = false;
+        isMoving = false;
         isActive = true;
         characterAnimator.Play(characterData.runAnimationName, 0, 0f);
-        characterRigidBody = GetComponent<Rigidbody>();
+        transform.position = characterStartPivot.position;
     }
     public void Lose()
     {
+        isActive = false;
         StopAllCoroutines();
         characterAnimator.Play(characterData.loseAnimationName, 0, 0f);
     }
     public void Jump()
     {
+        if (!isActive) return;
         if (isGrounded)
         {
             characterAnimator.Play(characterData.jumpAnimationName, 0, 0f);
@@ -41,6 +51,7 @@ public class Character : MonoBehaviour
     }
     public void MoveDown()
     {
+        if (!isActive || isRolling) return;
         if (!isGrounded)
         {
             characterRigidBody.AddForce(Vector3.down * jumpForce * 2, ForceMode.Impulse);

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlataformsManager : MonoBehaviour
+public class PlatformsManager : MonoBehaviour
 {
     [SerializeField]
     private Transform platformsPivot;
@@ -12,10 +12,19 @@ public class PlataformsManager : MonoBehaviour
     private float speed = 5f;
     private bool isRunning = true;
     private GameObject lastPlatform;
-    private void Start()
+    public void StartGame()
     {
+        InitializePlatforms();
         InstantiatePlatform(initialPlatforms);
         transform.position = platformsPivot.position;
+        isRunning = true;
+    }
+    private void InitializePlatforms()
+    {
+        foreach (var platform in platformPrefabs)
+        {
+            platform.DeactivateAllObjects();
+        }
     }
     public void InstantiatePlatform(int number)
     {
