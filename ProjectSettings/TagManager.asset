@@ -8,6 +8,8 @@ TagManager:
   - Obstacle
   - Weed
   - JumpPowerUp
+  - FxTemporaire
+  - Magnet
   layers:
   - Default
   - TransparentFX

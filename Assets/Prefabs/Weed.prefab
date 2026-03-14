@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4876560015385180749}
   - component: {fileID: 6210563037685105898}
+  - component: {fileID: -1460682350576216822}
   m_Layer: 0
   m_Name: Weed
   m_TagString: Weed
@@ -54,6 +55,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.71, y: 0.73, z: 0.17}
   m_Center: {x: 0, y: 0, z: -0.1}
+--- !u!114 &-1460682350576216822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4299779752141654675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3395228137be8494791fec8f77500bb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CoinFollow
+  followSpeed: 5
+  minimumDistance: 0.05
 --- !u!1001 &6420250557625922663
 PrefabInstance:
   m_ObjectHideFlags: 0
