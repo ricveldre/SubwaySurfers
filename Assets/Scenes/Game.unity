@@ -831,7 +831,7 @@ MonoBehaviour:
   characterData: {fileID: 11400000, guid: 68f9056ae6906584abec0352b6c17ea4, type: 2}
   characterAnimator: {fileID: 787338871}
   jumpForce: 5
-  distanceToMove: 1
+  distanceToMove: 2.5
   moveDuration: 0.2
   characterStartPivot: {fileID: 332199394}
   onJump:
