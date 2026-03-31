@@ -16,6 +16,10 @@ public class Platform : MonoBehaviour
     {
         ActivateWeed();
     }
+    public bool HasWeed()
+    {
+        return weed.Length > 0;
+    }
     private void ActivateWeed()
     {
         foreach (var weed in weed)

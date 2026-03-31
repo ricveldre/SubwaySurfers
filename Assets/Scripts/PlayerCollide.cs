@@ -10,6 +10,10 @@ public class PlayerCollide : MonoBehaviour
     [SerializeField]
     private string JumpPowerUpTag = "JumpPowerUp";
     [SerializeField]
+    private string jetpackTag = "Jetpack";
+    [SerializeField]
+    private UnityEvent<Transform> onJetpackCollected;
+    [SerializeField]
     private UnityEvent<Transform> onMagnetCollected;
     [SerializeField]
     private UnityEvent<Transform> onObstacleCollision;
@@ -17,7 +21,6 @@ public class PlayerCollide : MonoBehaviour
     private UnityEvent<Transform> onJumpPowerUpCollected;
     [SerializeField]
     private UnityEvent<Transform> onWeedCollected;
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(obstacleTag))
@@ -26,8 +29,7 @@ public class PlayerCollide : MonoBehaviour
         }
         else if (other.CompareTag(weedTag))
         {
-            onWeedCollected?.Invoke(transform);
-            other.gameObject.SetActive(false);
+            CollectWeed(other.gameObject);
         }
         else if (other.CompareTag(JumpPowerUpTag))
         {
@@ -39,5 +41,15 @@ public class PlayerCollide : MonoBehaviour
             onMagnetCollected?.Invoke(transform);
             other.gameObject.SetActive(false);
         }
+        else if  (other.CompareTag(jetpackTag))
+        {
+            onJetpackCollected?.Invoke(transform);
+            other.gameObject.SetActive(false);
+        }
+    }
+    public void CollectWeed(GameObject weed)
+    {
+        weed.SetActive(false);
+        onWeedCollected?.Invoke(transform);
     }
 }

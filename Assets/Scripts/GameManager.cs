@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     }
     public void StartGame()
     {
-        onGameStart?.Invoke();
+            onGameStart?.Invoke();
     }
     public void LoseGame()
     {
