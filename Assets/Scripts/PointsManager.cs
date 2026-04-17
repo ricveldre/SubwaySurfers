@@ -36,7 +36,7 @@ public class PointsManager : MonoBehaviour
             onPointsChanged?.Invoke(points);
         }
     }
-    public void OnLoseGame()
+    public void CalculateHighScore()
     {
         int highScore = PlayerPrefs.GetInt("HighScore", 0);
         if (points > highScore)

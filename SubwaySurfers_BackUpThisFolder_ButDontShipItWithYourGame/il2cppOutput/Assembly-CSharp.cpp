@@ -1,0 +1,8136 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+
+struct ABSTweenPlugin_3_tE5A78BE46D046C07A6356B8AB596B2D00F9295E7;
+struct DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338;
+struct DOSetter_1_t02E8F9920F174322F1CF5AC8BCDEAABD14A03358;
+struct Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA;
+struct Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24;
+struct IEqualityComparer_1_tAE94C8F24AD5B94D4EE85CA9FC59E3409D41CAF7;
+struct KeyCollection_tBAF028287A90DA246BB458204DB49774E41D04AB;
+struct List_1_tC3125D359B5BFC11439B1C3D9D6620A529B03EF0;
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct TweenCallback_1_tF0ADCA0C226C9C243ACB55E67D852E4BB53AEB67;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77;
+struct UnityEvent_1_t7CC0661D6B113117B4CC68761D93AC8DF5DBD66A;
+struct UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205;
+struct UnityEvent_1_tDB20959AD83D727C64BDF86E62C3398C970B7FA3;
+struct UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257;
+struct UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9;
+struct ValueCollection_t5E8255234E3BA2CFC7E0B1F570F80B07C3EBBDE5;
+struct EntryU5BU5D_tED5B00189A1A2DB5562C6CC6700D361068445B8D;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353;
+struct UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4;
+struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883;
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20;
+struct AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04;
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299;
+struct CameraFollow_tBD6591B769F73DC67048F5F58F6472198F4B140E;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61;
+struct CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D;
+struct CoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612;
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
+struct Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct EaseFunction_t0F945D9D726B0915C5FBF30862E987EC3AC12A04;
+struct FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224;
+struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA;
+struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+struct JetpackPowerUp_t7F2F638216AC56F4F15F33B7300A8B3AC7393BD5;
+struct JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E;
+struct MagnetCollider_t2093438C9584F8CE2AB10ED947CAFE34E560D5AE;
+struct MagnetPowerUp_t49A168309E53F7FCF273AB87B254BBC099DC1647;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct PauseManager_t84975A438A2233D672703B683A1E557962911022;
+struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+struct Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7;
+struct PlatformsLimit_tB0AAD22DBEA20323554C4CED2FFD5F24157C1213;
+struct PlatformsManager_tAC2627EF63F0B20E4C0BB9C927031F2547D9FE81;
+struct PlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047;
+struct PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1;
+struct PointsUI_t9100CB9CFC6830547E6C91988BC72087408514D2;
+struct PowerUpManager_tD294643D6AF9D9169245781685135AE31C443534;
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
+struct Rotate_t3280DFA30ADF04B60D2B142844F3B2364A472EAE;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct SceneController_tB7F7B89C800597DE2A7040F3D2EFD8824C8043CB;
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+struct Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C;
+struct SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734;
+struct String_t;
+struct Swipe_tD267E2537F8F7AB11B4D24E8E8E30A106694FC22;
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
+struct TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24;
+struct Type_t;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
+struct WeedManager_t3D54C6322E63FEF5068235125104DBB0BA6A83E1;
+struct WeedUI_tB19DACF0CD48373B49D44CD3C7E610500F634EBC;
+struct PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E;
+struct PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072;
+struct U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615;
+struct U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11;
+struct U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0;
+struct U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+struct U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8;
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
+struct U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA;
+
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____AEAF98F7D9970CD14FD8E986DD467305AC3986B033C028C5D8D33CA51D462943_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____FAA3127F000CBB60B66C8FF4A6CDD58531520B0D69B9A3EFBBA587AAF9DEA5C4_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral052C17E9D6BC1FE3DB31F3277AED6D12A2C6BDAC;
+IL2CPP_EXTERN_C String_t* _stringLiteral0C5512A3E21E6E466053F49C8A724B2FE2E0E96B;
+IL2CPP_EXTERN_C String_t* _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1;
+IL2CPP_EXTERN_C String_t* _stringLiteral539886CC0D6E626CD59CCCB9A251E15C3F8DC3EE;
+IL2CPP_EXTERN_C String_t* _stringLiteral55472DE2552CE59CFFD2E3ECD3616C4569666DEA;
+IL2CPP_EXTERN_C String_t* _stringLiteral5AC9A4013B4C4E7F2CD2686B02B0B46FB2742629;
+IL2CPP_EXTERN_C String_t* _stringLiteral5B50FDF53D771723FE3EF5DAB73BA100CB487C80;
+IL2CPP_EXTERN_C String_t* _stringLiteral6B4163C2C656A3D07B4C866844A11802E45E2F52;
+IL2CPP_EXTERN_C String_t* _stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C;
+IL2CPP_EXTERN_C String_t* _stringLiteral74B83A50A58269C4EECA165C2ABB62B80AAFC9D0;
+IL2CPP_EXTERN_C String_t* _stringLiteral77BD0D6EA8EF056CA5030058B00FB3E36E8802DB;
+IL2CPP_EXTERN_C String_t* _stringLiteral79B0BC20C4F38EB2142290F5EFAB4EF138899A9B;
+IL2CPP_EXTERN_C String_t* _stringLiteral7A65EFC5BB52048E35B0D3E2214BCF8CE116440A;
+IL2CPP_EXTERN_C String_t* _stringLiteral8866EA3E0BC985BCCB33306B5606BA3D21875437;
+IL2CPP_EXTERN_C String_t* _stringLiteralA12C13441E908B46D0E8552680587F5595D959F4;
+IL2CPP_EXTERN_C String_t* _stringLiteralB909B22DB2C5022FCEEFBBA99A39DBB798ACE88C;
+IL2CPP_EXTERN_C String_t* _stringLiteralBB6C5071820F89EFCFA1953E5B0767FC6E7F199F;
+IL2CPP_EXTERN_C String_t* _stringLiteralBEF1F71BD3C21C53860EC6863B3105336E4D873B;
+IL2CPP_EXTERN_C String_t* _stringLiteralCA5EF003C43724A30EBD3751479853EC15EA99A5;
+IL2CPP_EXTERN_C String_t* _stringLiteralDDB91D5B0BDD1824A4CC18C279F4CF0A96D4A900;
+IL2CPP_EXTERN_C String_t* _stringLiteralE3E58C66ACF79B9FA5839A7A6B1A097F5F677ADE;
+IL2CPP_EXTERN_C const RuntimeMethod* Character_U3CMoveU3Eb__39_0_mAA5C24BF06466038163C19B0FA203C00ABC62D92_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612_m50E8C802DC9F275B4D63B45D22B642B0C17DB4B0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisPlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047_mA708DAABA9526EB3454CA05C49A131D3EFA64F1D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m5CC17878B3AA17C973F24805C2115E4228F9E3F6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m727E5E918360D222F9F00464D65B7C6D649B95C8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_mA03FE43375BB7ADFF702A2E6343513B50B3DB8DD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_m6D8159C91FE4513E3489D7B8D777DBB0044FEBED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisPlatform_tB273231B032B66E0A0CA476D2B180D1705DC80D7_m292AC820B1E97E0CE7E5DCECCB8CEE5665193019_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Resources_Load_TisAudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_m8D55846FD24C1D133D4EA744BE1E73E054B93A78_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TweenSettingsExtensions_OnComplete_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_m5D6178C188AE17452C826243FDD0E412B6304A3F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TweenSettingsExtensions_SetEase_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_mEACEF6A6E654DEDDB2620CD0BE1DA29C023F4E2F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCountPointsU3Ed__7_System_Collections_IEnumerator_Reset_m11199FA06F3F3EC10763E5A326DC4B0B37582726_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CDeactivateAfterDurationU3Ed__6_System_Collections_IEnumerator_Reset_m1B23E6FD4D0B9D162D036C5031EE9DEC9094A351_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CDeactivateAfterDurationU3Ed__9_System_Collections_IEnumerator_Reset_m02651D52A473A25C0E00ABEE7DDB85C6FF548EC4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CDeactivateJetPackU3Ed__8_System_Collections_IEnumerator_Reset_mB799B75D94F099569A675C001C45BA6B410E06A1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CLoadSceneAfterFadeU3Ed__3_System_Collections_IEnumerator_Reset_m1610668650F7D1321F688B9466D60851D04E5191_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CResetRollU3Ed__40_System_Collections_IEnumerator_Reset_m159AC9CDF0BA888E328CF1D9F9BBFEC18F7E0E75_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_m6E414BE9A4E14C9553DAF9BB8059EC516AD11D06_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_mD81A5FC81FD5B0D34212D7ACE42A8BBC15CD7638_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B 
+{
+};
+struct Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_tED5B00189A1A2DB5562C6CC6700D361068445B8D* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_tBAF028287A90DA246BB458204DB49774E41D04AB* ____keys;
+	ValueCollection_t5E8255234E3BA2CFC7E0B1F570F80B07C3EBBDE5* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B  : public RuntimeObject
+{
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8  : public RuntimeObject
+{
+	InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382* ___m_Calls;
+	PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25* ___m_PersistentCalls;
+	bool ___m_CallsDirty;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+struct U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* ___U3CU3E4__this;
+};
+struct U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	JetpackPowerUp_t7F2F638216AC56F4F15F33B7300A8B3AC7393BD5* ___U3CU3E4__this;
+};
+struct U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* ___U3CU3E4__this;
+};
+struct U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	MagnetPowerUp_t49A168309E53F7FCF273AB87B254BBC099DC1647* ___U3CU3E4__this;
+};
+struct U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* ___U3CU3E4__this;
+};
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401  : public RuntimeObject
+{
+	String_t* ___heading;
+	String_t* ___text;
+	String_t* ___linkText;
+	String_t* ___url;
+};
+struct U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	SceneController_tB7F7B89C800597DE2A7040F3D2EFD8824C8043CB* ___U3CU3E4__this;
+	String_t* ___sceneName;
+};
+struct Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 
+{
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____current;
+};
+struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
+{
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____current;
+};
+struct UnityEvent_1_t7CC0661D6B113117B4CC68761D93AC8DF5DBD66A  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct UnityEvent_1_tDB20959AD83D727C64BDF86E62C3398C970B7FA3  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 
+{
+	int32_t ___m_Name;
+	int32_t ___m_Path;
+	int32_t ___m_FullPath;
+	float ___m_NormalizedTime;
+	float ___m_Length;
+	float ___m_Speed;
+	float ___m_SpeedMultiplier;
+	int32_t ___m_Tag;
+	int32_t ___m_Loop;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 
+{
+	union
+	{
+		struct
+		{
+			int32_t ___m_Data;
+		};
+		uint8_t EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8__padding[4];
+	};
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	float ___m_Seconds;
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D457_tB963D309E3ADB26E5FFF7B6607509AF8EFC77EDE 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D457_tB963D309E3ADB26E5FFF7B6607509AF8EFC77EDE__padding[457];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D976_t7DEA8A875241E2652FF65CF182547144ACB3FF84 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D976_t7DEA8A875241E2652FF65CF182547144ACB3FF84__padding[976];
+	};
+};
+#pragma pack(pop, tp)
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct AxisConstraint_t44CDC917B5BB2911F8930F8886A6581C09901AB6 
+{
+	int32_t ___value__;
+};
+struct Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Center;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Extents;
+};
+struct CollisionPairEventFlags_t9DAB7B8F199928220E6ACA8E669F3B644650FBE6 
+{
+	uint16_t ___value__;
+};
+struct CollisionPairFlags_tD05FDF8CD2FA43B2AAC0078E19DB27DF01B2BA98 
+{
+	uint16_t ___value__;
+};
+struct CollisionPairHeaderFlags_tBA40F470BC1564B84C3093CEA5761804FA0650C3 
+{
+	uint16_t ___value__;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Ease_t1A7F82C47C5B94B9CF9DF46FC58F80488BC6A7EB 
+{
+	int32_t ___value__;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct ForceMode_t603F3ECB085E4FDD30C91273A469047EA64F4459 
+{
+	int32_t ___value__;
+};
+struct LoopType_t3128AD2C907BAF825D244B38F274987C1AA08FE5 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct SpecialStartupMode_t872762964D80B3C1F6CE4024236A20D3D889AC44 
+{
+	int32_t ___value__;
+};
+struct TweenType_t50BBF64E13F70041085C51B9E0CB40FA61212F3E 
+{
+	int32_t ___value__;
+};
+struct UpdateType_tA521F450D94A1E8A88C6967093E093777BBA4C57 
+{
+	int32_t ___value__;
+};
+struct ABSSequentiable_t05DF85FC63E3650D2D4CF6ABBA0F43263EB8CE89  : public RuntimeObject
+{
+	int32_t ___tweenType;
+	float ___sequencedPosition;
+	float ___sequencedEndPosition;
+	TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* ___onStart;
+};
+struct AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct AudioResource_t35B84706031E4F08C928B1640B804839F4B6500A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ContactPair_t096319945A27108A2DA384393A9ED390BE4356FD 
+{
+	EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___m_ColliderID;
+	EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___m_OtherColliderID;
+	intptr_t ___m_StartPtr;
+	uint32_t ___m_NbPoints;
+	uint16_t ___m_Flags;
+	uint16_t ___m_Events;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_ImpulseSum;
+};
+struct ContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B 
+{
+	EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___m_BodyID;
+	EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___m_OtherBodyID;
+	intptr_t ___m_StartPtr;
+	uint32_t ___m_NbPairs;
+	uint16_t ___m_Flags;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_RelativeVelocity;
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct VectorOptions_t2814CC842518C92C9DFC5DE6F7A73824758D3EF9 
+{
+	int32_t ___axisConstraint;
+	bool ___snapping;
+};
+struct VectorOptions_t2814CC842518C92C9DFC5DE6F7A73824758D3EF9_marshaled_pinvoke
+{
+	int32_t ___axisConstraint;
+	int32_t ___snapping;
+};
+struct VectorOptions_t2814CC842518C92C9DFC5DE6F7A73824758D3EF9_marshaled_com
+{
+	int32_t ___axisConstraint;
+	int32_t ___snapping;
+};
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20  : public AudioResource_t35B84706031E4F08C928B1640B804839F4B6500A
+{
+	PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E* ___m_PCMReaderCallback;
+	PCMSetPositionCallback_t8D7135A2FB40647CAEC93F5254AD59E18DEB6072* ___m_PCMSetPositionCallback;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	String_t* ___jumpAnimationName;
+	String_t* ___moveAnimationName;
+	String_t* ___rolllAnimationName;
+	String_t* ___loseAnimationName;
+	String_t* ___runAnimationName;
+	String_t* ___flyAnimationName;
+};
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0  : public RuntimeObject
+{
+	ContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B ___m_Header;
+	ContactPair_t096319945A27108A2DA384393A9ED390BE4356FD ___m_Pair;
+	bool ___m_Flipped;
+	ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* ___m_LegacyContacts;
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___icon;
+	String_t* ___title;
+	SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4* ___sections;
+	bool ___loadedLayout;
+};
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C  : public ABSSequentiable_t05DF85FC63E3650D2D4CF6ABBA0F43263EB8CE89
+{
+	float ___timeScale;
+	bool ___isBackwards;
+	bool ___isInverted;
+	RuntimeObject* ___id;
+	String_t* ___stringId;
+	int32_t ___intId;
+	RuntimeObject* ___target;
+	int32_t ___updateType;
+	bool ___isIndependentUpdate;
+	TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* ___onPlay;
+	TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* ___onPause;
+	TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* ___onRewind;
+	TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* ___onUpdate;
+	TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* ___onStepComplete;
+	TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* ___onComplete;
+	TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* ___onKill;
+	TweenCallback_1_tF0ADCA0C226C9C243ACB55E67D852E4BB53AEB67* ___onWaypointChange;
+	bool ___isFrom;
+	bool ___isBlendable;
+	bool ___isRecyclable;
+	bool ___isSpeedBased;
+	bool ___autoKill;
+	float ___duration;
+	int32_t ___loops;
+	int32_t ___loopType;
+	float ___delay;
+	bool ___U3CisRelativeU3Ek__BackingField;
+	int32_t ___easeType;
+	EaseFunction_t0F945D9D726B0915C5FBF30862E987EC3AC12A04* ___customEase;
+	float ___easeOvershootOrAmplitude;
+	float ___easePeriod;
+	String_t* ___debugTargetId;
+	Type_t* ___typeofT1;
+	Type_t* ___typeofT2;
+	Type_t* ___typeofTPlugOptions;
+	bool ___U3CactiveU3Ek__BackingField;
+	bool ___isSequenced;
+	Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* ___sequenceParent;
+	int32_t ___activeId;
+	int32_t ___specialStartupMode;
+	bool ___creationLocked;
+	bool ___startupDone;
+	bool ___U3CplayedOnceU3Ek__BackingField;
+	float ___U3CpositionU3Ek__BackingField;
+	float ___fullDuration;
+	int32_t ___completedLoops;
+	bool ___isPlaying;
+	bool ___isComplete;
+	float ___elapsedDelay;
+	bool ___delayComplete;
+	int32_t ___miscInt;
+};
+struct TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24  : public MulticastDelegate_t
+{
+};
+struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140  : public Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C
+{
+	bool ___hasManuallySetStartValue;
+	bool ___isFromAllowed;
+};
+struct TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77  : public Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___startValue;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___endValue;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___changeValue;
+	VectorOptions_t2814CC842518C92C9DFC5DE6F7A73824758D3EF9 ___plugOptions;
+	DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* ___getter;
+	DOSetter_1_t02E8F9920F174322F1CF5AC8BCDEAABD14A03358* ___setter;
+	ABSTweenPlugin_3_tE5A78BE46D046C07A6356B8AB596B2D00F9295E7* ___tweenPlugin;
+	Type_t* ____colorType;
+	Type_t* ____color32Type;
+};
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299  : public AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941
+{
+};
+struct CameraFollow_tBD6591B769F73DC67048F5F58F6472198F4B140E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___target;
+	float ___smoothSpeed;
+	float ___minX;
+	float ___maxX;
+	float ___verticalThreshold;
+	float ___verticalSmoothSpeed;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___offset;
+	float ___currentY;
+};
+struct Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___characterRigidBody;
+	CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* ___characterData;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___characterAnimator;
+	float ___jumpForce;
+	float ___distanceToMove;
+	float ___moveDuration;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___characterStartPivot;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onJump;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onMoveToSide;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onRoll;
+	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___normalCollider;
+	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___rollCollider;
+	bool ___isGrounded;
+	bool ___isMoving;
+	bool ___isRolling;
+	bool ___isActive;
+	bool ___isFlying;
+};
+struct CoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___player;
+	float ___followSpeed;
+	float ___minimumDistance;
+	bool ___canFollow;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___originalPosition;
+};
+struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onGameStart;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onGameLose;
+};
+struct InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prefab;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___objectPool;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___currentObject;
+};
+struct JetpackPowerUp_t7F2F638216AC56F4F15F33B7300A8B3AC7393BD5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___flyingHeight;
+	Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* ___character;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___jetPackAsset;
+	float ___flyDuration;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onJetpackActivated;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___flyCoroutine;
+};
+struct JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___jumpForceMultiplier;
+	float ___duration;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___mangos;
+	Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* ___character;
+	float ___originalJumpForce;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___powerUpCoroutine;
+};
+struct MagnetCollider_t2093438C9584F8CE2AB10ED947CAFE34E560D5AE  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___character;
+};
+struct MagnetPowerUp_t49A168309E53F7FCF273AB87B254BBC099DC1647  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___magnet;
+	float ___duration;
+	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___magnetCollider;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___deactivateCoroutine;
+};
+struct PauseManager_t84975A438A2233D672703B683A1E557962911022  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___pauseMenuOpenAnimation;
+	String_t* ___pauseMenuCloseAnimation;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___pauseMenuAnimator;
+	bool ___isPaused;
+};
+struct Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___weed;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___powerUps;
+	float ___colliderSize;
+};
+struct PlatformsLimit_tB0AAD22DBEA20323554C4CED2FFD5F24157C1213  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___platformsTag;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onPlatformDetected;
+};
+struct PlatformsManager_tAC2627EF63F0B20E4C0BB9C927031F2547D9FE81  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___platformsPivot;
+	InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* ___platformPrefabs;
+	InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* ___securePlatformPrefabs;
+	InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* ___flyingPlatformPrefabs;
+	float ___flyingPlatformsHeight;
+	int32_t ___initialPlatforms;
+	float ___minSpeed;
+	float ___maxSpeed;
+	float ___acceleration;
+	UnityEvent_1_tDB20959AD83D727C64BDF86E62C3398C970B7FA3* ___onPlatformPassed;
+	bool ___isRunning;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___lastPlatform;
+	int32_t ___platformsInstantiated;
+	float ___speed;
+};
+struct PlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___obstacleTag;
+	String_t* ___weedTag;
+	String_t* ___JumpPowerUpTag;
+	String_t* ___jetpackTag;
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* ___onJetpackCollected;
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* ___onMagnetCollected;
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* ___onObstacleCollision;
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* ___onJumpPowerUpCollected;
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* ___onWeedCollected;
+};
+struct PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___points;
+	float ___pointsInterval;
+	UnityEvent_1_t7CC0661D6B113117B4CC68761D93AC8DF5DBD66A* ___onPointsChanged;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___pointsCoroutine;
+	TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* ___pointsTexts;
+};
+struct PointsUI_t9100CB9CFC6830547E6C91988BC72087408514D2  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___text;
+};
+struct PowerUpManager_tD294643D6AF9D9169245781685135AE31C443534  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___minPlatformsNumber;
+	int32_t ___maxPlatformsNumber;
+	InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* ___powerUpPools;
+	float ___powerUpOffset;
+	int32_t ___platformsNumber;
+	int32_t ___platformsCounter;
+};
+struct Rotate_t3280DFA30ADF04B60D2B142844F3B2364A472EAE  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rotationSpeed;
+};
+struct SceneController_tB7F7B89C800597DE2A7040F3D2EFD8824C8043CB  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___fade;
+	String_t* ___fadeAnimationName;
+};
+struct SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___audioPrefix;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audioS;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___musicS;
+	AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* ___masterMixer;
+	Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* ___audioDictionary;
+};
+struct Swipe_tD267E2537F8F7AB11B4D24E8E8E30A106694FC22  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___isActive;
+	float ___minSwipeDistance;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onSwipeUp;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onSwipeDown;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onSwipeLeft;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onSwipeRight;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___startPosition;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct WeedManager_t3D54C6322E63FEF5068235125104DBB0BA6A83E1  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___weed;
+	UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* ___onWeedChanged;
+};
+struct WeedUI_tB19DACF0CD48373B49D44CD3C7E610500F634EBC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___weedText;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___animator;
+	String_t* ___animationName;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData;
+	String_t* ___m_Text;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout;
+	bool ___m_DisableFontTextureRebuiltCallback;
+	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts;
+};
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_StaticFields
+{
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D976_t7DEA8A875241E2652FF65CF182547144ACB3FF84 ___AEAF98F7D9970CD14FD8E986DD467305AC3986B033C028C5D8D33CA51D462943;
+	__StaticArrayInitTypeSizeU3D457_tB963D309E3ADB26E5FFF7B6607509AF8EFC77EDE ___FAA3127F000CBB60B66C8FF4A6CDD58531520B0D69B9A3EFBBA587AAF9DEA5C4;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734_StaticFields
+{
+	SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* ___instance;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF  : public RuntimeArray
+{
+	ALIGN_FIELD (8) GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* m_Items[1];
+
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921  : public RuntimeArray
+{
+	ALIGN_FIELD (8) InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* m_Items[1];
+
+	inline InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* m_Items[1];
+
+	inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TweenSettingsExtensions_SetEase_TisRuntimeObject_m28E0D61D2E7C5417FB6048D549C4A02BCABF3F46_gshared (RuntimeObject* ___0_t, int32_t ___1_ease, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TweenSettingsExtensions_OnComplete_TisRuntimeObject_mC014D07E92193DA79B257C4508B6DF208FE502A6_gshared (RuntimeObject* ___0_t, TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* ___1_action, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m90A1E6C4C2B445D2E848DB75C772D1B95AAC046A_gshared (RuntimeObject* ___0_original, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, RuntimeObject* ___0_arg0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_mD81A5FC81FD5B0D34212D7ACE42A8BBC15CD7638_gshared (UnityEvent_1_t7CC0661D6B113117B4CC68761D93AC8DF5DBD66A* __this, int32_t ___0_arg0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Resources_Load_TisRuntimeObject_mD1AF6299B14F87ED1D1A6199A51480919F7C79D7_gshared (String_t* ___0_path, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_Play_m5565F093F0752D4DD9B451686F71C7A8F23F6744 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, String_t* ___0_stateName, int32_t ___1_layer, float ___2_normalizedTime, const RuntimeMethod* method) ;
+inline Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70 (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_PlayGroundAnimation_mD87D152B1A7D4939F2B267A2C480514C39292A60 (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, String_t* ___0_animationName, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_AddForce_mBDBC288D0E266BC1B62E3649B4FCE46E7EA9CCBC (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_force, int32_t ___1_mode, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_down_mF62B2AE7C5AC31EAC9CB62797C7190C90A7A8599_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Character_ResetRoll_m031E4784DDE1215CBA64C72E4732B1190E7ACD44 (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_left_m8C1116485A9E689760AEE1142F5977852278B7E1_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_Move_m08D57898C7F890C7913CB358F7A5B73DE5316234 (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* ShortcutExtensions_DOMove_m82274FDC0216A91A1FAF16844805D06BF9A287FF (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) ;
+inline TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* TweenSettingsExtensions_SetEase_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_mEACEF6A6E654DEDDB2620CD0BE1DA29C023F4E2F (TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* ___0_t, int32_t ___1_ease, const RuntimeMethod* method)
+{
+	return ((  TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* (*) (TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77*, int32_t, const RuntimeMethod*))TweenSettingsExtensions_SetEase_TisRuntimeObject_m28E0D61D2E7C5417FB6048D549C4A02BCABF3F46_gshared)(___0_t, ___1_ease, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TweenCallback__ctor_m68CC9304423CBDE43001F9B1413B5DAAF70DB621 (TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+inline TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* TweenSettingsExtensions_OnComplete_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_m5D6178C188AE17452C826243FDD0E412B6304A3F (TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* ___0_t, TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* ___1_action, const RuntimeMethod* method)
+{
+	return ((  TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* (*) (TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77*, TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24*, const RuntimeMethod*))TweenSettingsExtensions_OnComplete_TisRuntimeObject_mC014D07E92193DA79B257C4508B6DF208FE502A6_gshared)(___0_t, ___1_action, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResetRollU3Ed__40__ctor_mF26285E0139D9D9721CCFF7D90C39E7C3FD32A02 (U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Collision_get_gameObject_m846FADBCA43E1849D3FE4D5EA44C02D055A70B3E (Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_CompareTag_m6378BE50D009A93D46036F74CC3F7E2ECB0636E5 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___0_tag, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 Animator_GetCurrentAnimatorStateInfo_mD5B526FA605F6CFBC31B7DE36740F6AD1E534CAD (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, int32_t ___0_layerIndex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AnimatorStateInfo_get_length_m2FAE317264F7C796427207F8F28E550DB49F9541 (AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+inline PlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047* Component_GetComponent_TisPlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047_mA708DAABA9526EB3454CA05C49A131D3EFA64F1D (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  PlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCollide_CollectWeed_mB01AFB20D081AA4B3A0E569FBA45C7FF6D19C411 (PlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_weed, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_StartGame_m2CAC97E2C33DD5FF5CF10FAF17313080A85464B7 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) ;
+inline void List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_inline (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* InstantiatePoolObjects_GetPoolObject_m3545D85F082125450BE40ED10659135992687971 (InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) ;
+inline Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8 (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60* __this, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27 (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m90A1E6C4C2B445D2E848DB75C772D1B95AAC046A_gshared)(___0_original, method);
+}
+inline void List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline void List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Character_get_IsActive_m9EB7899E6937EC256602700794561E2779AF58B9_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Character_get_IsFlying_mFB9C0F3A3DDB49038E539E6E30EE6855ACD449DA_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Character_set_IsFlying_mF91790BCE1C02F0A6FCC02CF6D34659A6FBDFADD_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* Character_get_CharacterRigidbody_m7B3F5432D3D75F31BE0C3EA73F1C430397EC9CBB_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* ShortcutExtensions_DOMoveY_m7986D5CC9DCD45AED6BC48F87C306CCED2B6BE62 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, float ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* Character_get_CharacterAnimator_m9ABB864EE44B14D40FBF8992AD52425B69F306FF_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* Character_get_CharacterData_m77C135E0C6E1EE87D449DF12E2E6BB41C48B72E2_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, String_t* ___0_stateName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JetpackPowerUp_DeactivateJetPack_m1EBCE399F6D49CC0F7D86A5F8CF2652E996C3478 (JetpackPowerUp_t7F2F638216AC56F4F15F33B7300A8B3AC7393BD5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeactivateJetPackU3Ed__8__ctor_m5A80378129C04884C1B0DE286E56648B36F7F830 (U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JetpackPowerUp_Deactivate_m438F4BC6590A19A0BE4C1A28B72D1FB284291431 (JetpackPowerUp_t7F2F638216AC56F4F15F33B7300A8B3AC7393BD5* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Character_get_JumpForce_mB5F57DDC056EA1A11B868D68FCAEB4DEFC755CA6_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Character_set_JumpForce_m9D38872606D16B887CB7E275110B9A181B71C44F_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JumpPowerUp_DeactivateAfterDuration_m16A5D86066D76E20F80FAFCB1C18D2C040106871 (JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeactivateAfterDurationU3Ed__9__ctor_m4BF2409928FF88A614200D7FD3815DA4C37150D0 (U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JumpPowerUp_ActivateMangos_m77F72EA0E8B3445093E8AAE1A6A8C6B8C2482467 (JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* __this, bool ___0_isActive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, String_t* ___0_tag, const RuntimeMethod* method) ;
+inline CoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612* Component_GetComponent_TisCoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612_m50E8C802DC9F275B4D63B45D22B642B0C17DB4B0 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  CoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoinFollow_StartFollowing_m26D91BD44CCCF7402BBDC7B2D40646FFBA60223C (CoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_playerTransform, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MagnetPowerUp_DeactivateAfterDuration_mAEF1444D0A8289E9F925E2EC2953B0EC5067C99D (MagnetPowerUp_t49A168309E53F7FCF273AB87B254BBC099DC1647* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeactivateAfterDurationU3Ed__6__ctor_mDDAD94B4DC26D83BDA3A6ACC4F0500BA43A23B5C (U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MagnetPowerUp_Deactivate_m70C9B4ED663773E004757AE31CD87A8A1F2CC24D (MagnetPowerUp_t49A168309E53F7FCF273AB87B254BBC099DC1647* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331 (float ___0_value, const RuntimeMethod* method) ;
+inline Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 Collider_get_bounds_mCC32F749590E9A85C7930E5355661367F78E4CB4 (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Bounds_get_size_m0699A53A55A78B3201D7270D6F338DFA91B6FAD4_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_ActivateWeed_mE4BFB01FC68FB6D94A3C6CB631652E5EF06568C7 (Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68 (int32_t ___0_minInclusive, int32_t ___1_maxExclusive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_p, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformsManager_InitializePlatforms_m5C879B5265B4EA9B272C07FBB98D32257035FEAF (PlatformsManager_tAC2627EF63F0B20E4C0BB9C927031F2547D9FE81* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformsManager_InstantiatePlatform_m290E74B9D28275111EE9C068C4E7AD320CC0EAD5 (PlatformsManager_tAC2627EF63F0B20E4C0BB9C927031F2547D9FE81* __this, int32_t ___0_number, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InstantiatePoolObjects_DeactivateAllObjects_m04C47DC1371E6350CD29C279A056CF947F07711B (InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InstantiatePoolObjects_InstantiateObject_m2E9FE3D8EF779492C6B796EC5A4BAFA82D4A1CB3 (InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* InstantiatePoolObjects_GetCurrentObject_mF6E6EA80F70701614980E1A9D4E6371C77B58F31_inline (InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* __this, const RuntimeMethod* method) ;
+inline Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* GameObject_GetComponent_TisPlatform_tB273231B032B66E0A0CA476D2B180D1705DC80D7_m292AC820B1E97E0CE7E5DCECCB8CEE5665193019 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Platform_get_ColliderSize_m44D74638ED1913FE6B6CB7B8E54F3F01CD81E289_inline (Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) ;
+inline void UnityEvent_1_Invoke_m6E414BE9A4E14C9553DAF9BB8059EC516AD11D06 (UnityEvent_1_tDB20959AD83D727C64BDF86E62C3398C970B7FA3* __this, Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* ___0_arg0, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tDB20959AD83D727C64BDF86E62C3398C970B7FA3*, Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___0_arg0, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_back_mCA5A84170E8DE5CE38C0551B4CCAD647BF215E57_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Translate_m018D015E89C8CB743C54A21B4A1C5202EBF6297A (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_translation, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+inline void UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9 (UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_arg0, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___0_arg0, method);
+}
+inline void UnityEvent_1_Invoke_mD81A5FC81FD5B0D34212D7ACE42A8BBC15CD7638 (UnityEvent_1_t7CC0661D6B113117B4CC68761D93AC8DF5DBD66A* __this, int32_t ___0_arg0, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t7CC0661D6B113117B4CC68761D93AC8DF5DBD66A*, int32_t, const RuntimeMethod*))UnityEvent_1_Invoke_mD81A5FC81FD5B0D34212D7ACE42A8BBC15CD7638_gshared)(__this, ___0_arg0, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PointsManager_CountPoints_mB3F0ED348EC1DAAE4EBBDB96350326B30621C44D (PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCountPointsU3Ed__7__ctor_m0816A4337C31E0E7C432CE6D5A50DEA6F746B4F8 (U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D (String_t* ___0_key, int32_t ___1_defaultValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948 (String_t* ___0_key, int32_t ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsManager_UpdatePointsTexts_m367845F72B1FFE48450D917378F6F2F3D94DB47F (PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PowerUpManager_SetPlatformsNumber_m3AB8FE76FDB00E1E7EBE6200B2A32BF2EFC32DF6 (PowerUpManager_tD294643D6AF9D9169245781685135AE31C443534* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PowerUpManager_SpawnPowerUp_mE9A3154BC3146B5CA724854B108E220C1ADF156E (PowerUpManager_tD294643D6AF9D9169245781685135AE31C443534* __this, Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* ___0_platform, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Platform_HasWeed_m31BBFB470D17B872B092970DC31E06B873518D23 (Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_AddPowerUp_m3D211B1CED2D99020B3A78DCA00186A08547665D (Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_powerUp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Rotate_m2A308205498AFEEA3DF784B1C86E4F7C126CA2EE (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_eulers, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SceneController_LoadSceneAfterFade_mD6A50B36EE3A2053E3D633FFAAC63A2E2B2B337B (SceneController_tB7F7B89C800597DE2A7040F3D2EFD8824C8043CB* __this, String_t* ___0_sceneName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneAfterFadeU3Ed__3__ctor_m1DCCB861015CBB9D84D2A77DBF4F74B761F7CF0D (U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___0_sceneName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+inline bool Dictionary_2_ContainsKey_m5CC17878B3AA17C973F24805C2115E4228F9E3F6 (Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
+}
+inline AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* Dictionary_2_get_Item_mA03FE43375BB7ADFF702A2E6343513B50B3DB8DD (Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* __this, String_t* ___0_key, const RuntimeMethod* method)
+{
+	return ((  AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* (*) (Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___0_key, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+inline AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* Resources_Load_TisAudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_m8D55846FD24C1D133D4EA744BE1E73E054B93A78 (String_t* ___0_path, const RuntimeMethod* method)
+{
+	return ((  AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_mD1AF6299B14F87ED1D1A6199A51480919F7C79D7_gshared)(___0_path, method);
+}
+inline void Dictionary_2_set_Item_m6D8159C91FE4513E3489D7B8D777DBB0044FEBED (Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* __this, String_t* ___0_key, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24*, String_t*, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_pitch_mD14631FC99BF38AAFB356D9C45546BC16CF9E811 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayOneShot_mF6FE95C58996B38EF6E7F7482F95F5E15E0AB30B (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, float ___1_volumeScale, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SoundManager_Play_mC7E9FE1B018EF1E98D08C9755A00CCEB8339708D (SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* __this, String_t* ___0_soundname, float ___1_volume, float ___2_pitch, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SoundManager_PlayMusic_mD7E1F3DD4B293A3ECF3E83E3B31EC36216EE703E (SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* __this, String_t* ___0_soundname, float ___1_volume, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioMixer_SetFloat_m4789959013BE79E4F84F446405914908ADC3F335 (AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* __this, String_t* ___0_name, float ___1_value, const RuntimeMethod* method) ;
+inline void Dictionary_2__ctor_m727E5E918360D222F9F00464D65B7C6D649B95C8 (Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3 (int32_t ___0_button, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetMouseButtonUp_mBE89CC9C69BBEA9A863819E77EA54411B0476ED6 (int32_t ___0_button, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Swipe_DetectSwipeDirection_mF8236FFB254A951E15A5DD40B908B2490F4BE7B5 (Swipe_tD267E2537F8F7AB11B4D24E8E8E30A106694FC22* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_swipeVector, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_right_m99043ED6B3D5AEA5033313FE3DA9571F39D1B280_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_SignedAngle_mAE9940DA6BC6B2182BA95C299B2EC19967B7D438_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_from, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_to, const RuntimeMethod* method) ;
+inline void UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15 (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, String_t* ___0_arg0, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*, String_t*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___0_arg0, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Angle_mB5E31E6EB5E445A53B8E777BD9647B02DCB49931_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_from, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___1_to, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Dot_mD510FC4765B9CF4F06E6AC6FEC0215F401EFD4FB_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___1_rhs, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68459
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraFollow_Awake_mB8C3E610F559E2F0844D797D843BC52EF5A85B8F (CameraFollow_tBD6591B769F73DC67048F5F58F6472198F4B140E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:21>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___target;
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_1, L_3, NULL);
+		__this->___offset = L_4;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:22>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
+		float L_7 = L_6.___y;
+		__this->___currentY = L_7;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:23>
+		return;
+	}
+}
+// Method Definition Index: 68460
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraFollow_LateUpdate_m9C559F2A33098CED5CB8BD82CCD6FC98AB521D61 (CameraFollow_tBD6591B769F73DC67048F5F58F6472198F4B140E* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:26>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:27>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___target;
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		float L_4 = L_3.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_5 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___offset);
+		float L_6 = L_5->___x;
+		V_1 = ((float)il2cpp_codegen_add(L_4, L_6));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:28>
+		float L_7 = V_1;
+		float L_8 = __this->___minX;
+		float L_9 = __this->___maxX;
+		float L_10;
+		L_10 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_7, L_8, L_9, NULL);
+		(&V_0)->___x = L_10;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:29>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->___target;
+		NullCheck(L_11);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_11, NULL);
+		float L_13 = L_12.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_14 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___offset);
+		float L_15 = L_14->___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_13, L_15));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:30>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = __this->___target;
+		NullCheck(L_16);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_16, NULL);
+		float L_18 = L_17.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_19 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___offset);
+		float L_20 = L_19->___y;
+		V_2 = ((float)il2cpp_codegen_add(L_18, L_20));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:31>
+		float L_21 = V_2;
+		float L_22 = __this->___currentY;
+		if ((!(((float)L_21) > ((float)L_22))))
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:33>
+		float L_23 = V_2;
+		float L_24 = __this->___currentY;
+		float L_25 = __this->___verticalThreshold;
+		if ((!(((float)L_23) > ((float)((float)il2cpp_codegen_add(L_24, L_25))))))
+		{
+			goto IL_00e2;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:35>
+		float L_26 = __this->___currentY;
+		float L_27 = V_2;
+		float L_28 = __this->___verticalSmoothSpeed;
+		float L_29;
+		L_29 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_30;
+		L_30 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_26, L_27, ((float)il2cpp_codegen_multiply(L_28, L_29)), NULL);
+		__this->___currentY = L_30;
+		goto IL_00e2;
+	}
+
+IL_00bb:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:38>
+		float L_31 = V_2;
+		float L_32 = __this->___currentY;
+		if ((!(((float)L_31) < ((float)L_32))))
+		{
+			goto IL_00e2;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:40>
+		float L_33 = __this->___currentY;
+		float L_34 = V_2;
+		float L_35 = __this->___verticalSmoothSpeed;
+		float L_36;
+		L_36 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_37;
+		L_37 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_33, L_34, ((float)il2cpp_codegen_multiply(L_35, L_36)), NULL);
+		__this->___currentY = L_37;
+	}
+
+IL_00e2:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:42>
+		float L_38 = __this->___currentY;
+		(&V_0)->___y = L_38;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:43>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_39;
+		L_39 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_40;
+		L_40 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_40);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
+		L_41 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_40, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_0;
+		float L_43 = __this->___smoothSpeed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
+		L_44 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_41, L_42, L_43, NULL);
+		NullCheck(L_39);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_39, L_44, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 68461
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraFollow__ctor_m113CC547D419EF599BC487F0F44B06BB2D4EE11B (CameraFollow_tBD6591B769F73DC67048F5F58F6472198F4B140E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:8>
+		__this->___smoothSpeed = (0.125f);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:14>
+		__this->___verticalThreshold = (2.0f);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CameraFollow.cs:16>
+		__this->___verticalSmoothSpeed = (5.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68462
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Character_get_JumpForce_mB5F57DDC056EA1A11B868D68FCAEB4DEFC755CA6 (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:17>
+		float L_0 = __this->___jumpForce;
+		return L_0;
+	}
+}
+// Method Definition Index: 68463
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_set_JumpForce_m9D38872606D16B887CB7E275110B9A181B71C44F (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:18>
+		float L_0 = ___0_value;
+		__this->___jumpForce = L_0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 68464
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Character_get_IsFlying_mFB9C0F3A3DDB49038E539E6E30EE6855ACD449DA (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:43>
+		bool L_0 = __this->___isFlying;
+		return L_0;
+	}
+}
+// Method Definition Index: 68465
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_set_IsFlying_mF91790BCE1C02F0A6FCC02CF6D34659A6FBDFADD (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:44>
+		bool L_0 = ___0_value;
+		__this->___isFlying = L_0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 68466
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* Character_get_CharacterData_m77C135E0C6E1EE87D449DF12E2E6BB41C48B72E2 (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:46>
+		CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* L_0 = __this->___characterData;
+		return L_0;
+	}
+}
+// Method Definition Index: 68467
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* Character_get_CharacterRigidbody_m7B3F5432D3D75F31BE0C3EA73F1C430397EC9CBB (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:47>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___characterRigidBody;
+		return L_0;
+	}
+}
+// Method Definition Index: 68468
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* Character_get_CharacterAnimator_m9ABB864EE44B14D40FBF8992AD52425B69F306FF (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:48>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->___characterAnimator;
+		return L_0;
+	}
+}
+// Method Definition Index: 68469
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Character_get_IsActive_m9EB7899E6937EC256602700794561E2779AF58B9 (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:49>
+		bool L_0 = __this->___isActive;
+		return L_0;
+	}
+}
+// Method Definition Index: 68470
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_PlayGroundAnimation_mD87D152B1A7D4939F2B267A2C480514C39292A60 (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, String_t* ___0_animationName, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:52>
+		bool L_0 = __this->___isFlying;
+		if (!L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:52>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:53>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->___characterAnimator;
+		String_t* L_2 = ___0_animationName;
+		NullCheck(L_1);
+		Animator_Play_m5565F093F0752D4DD9B451686F71C7A8F23F6744(L_1, L_2, 0, (0.0f), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:54>
+		return;
+	}
+}
+// Method Definition Index: 68471
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_Awake_m999C4CC2D96D7D8FC56002FFBADB1EDF72CC39B7 (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:57>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0;
+		L_0 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
+		__this->___characterRigidBody = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___characterRigidBody), (void*)L_0);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:58>
+		return;
+	}
+}
+// Method Definition Index: 68472
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_StartGame_m6CA499356E4ABC67AB1D14B4B240DA30D404D3FC (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:61>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = __this->___normalCollider;
+		NullCheck(L_0);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_0, (bool)1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:62>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_1 = __this->___rollCollider;
+		NullCheck(L_1);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_1, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:63>
+		__this->___isRolling = (bool)0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:64>
+		__this->___isMoving = (bool)0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:65>
+		__this->___isActive = (bool)1;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:66>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_2 = __this->___characterAnimator;
+		CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* L_3 = __this->___characterData;
+		NullCheck(L_3);
+		String_t* L_4 = L_3->___runAnimationName;
+		NullCheck(L_2);
+		Animator_Play_m5565F093F0752D4DD9B451686F71C7A8F23F6744(L_2, L_4, 0, (0.0f), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:67>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___characterStartPivot;
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		NullCheck(L_5);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_5, L_7, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:68>
+		return;
+	}
+}
+// Method Definition Index: 68473
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_Lose_mF6FD6932935AE4EFFFF9A39CD66D98C3C59BD1D4 (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:71>
+		__this->___isActive = (bool)0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:72>
+		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:73>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->___characterAnimator;
+		CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* L_1 = __this->___characterData;
+		NullCheck(L_1);
+		String_t* L_2 = L_1->___loseAnimationName;
+		NullCheck(L_0);
+		Animator_Play_m5565F093F0752D4DD9B451686F71C7A8F23F6744(L_0, L_2, 0, (0.0f), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:74>
+		return;
+	}
+}
+// Method Definition Index: 68474
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_Jump_mC4947E67456E0B10EFD2122D1D636DD67FF2DD84 (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B6_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B5_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:77>
+		bool L_0 = __this->___isActive;
+		if (!L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		bool L_1 = __this->___isFlying;
+		if (!L_1)
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:77>
+		return;
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:78>
+		bool L_2 = __this->___isGrounded;
+		if (!L_2)
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:80>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_3 = __this->___onJump;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_4 = L_3;
+		if (L_4)
+		{
+			G_B6_0 = L_4;
+			goto IL_0025;
+		}
+		G_B5_0 = L_4;
+	}
+	{
+		goto IL_002a;
+	}
+
+IL_0025:
+	{
+		NullCheck(G_B6_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B6_0, NULL);
+	}
+
+IL_002a:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:81>
+		CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* L_5 = __this->___characterData;
+		NullCheck(L_5);
+		String_t* L_6 = L_5->___jumpAnimationName;
+		Character_PlayGroundAnimation_mD87D152B1A7D4939F2B267A2C480514C39292A60(__this, L_6, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:82>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_7 = __this->___characterRigidBody;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		float L_9 = __this->___jumpForce;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_8, L_9, NULL);
+		NullCheck(L_7);
+		Rigidbody_AddForce_mBDBC288D0E266BC1B62E3649B4FCE46E7EA9CCBC(L_7, L_10, 1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:83>
+		__this->___isGrounded = (bool)0;
+	}
+
+IL_005e:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:85>
+		return;
+	}
+}
+// Method Definition Index: 68475
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_MoveDown_mF13DF1BD10AD813D8A0BC82377B7EF807345A8CF (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B8_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B7_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:88>
+		bool L_0 = __this->___isActive;
+		if (!L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		bool L_1 = __this->___isRolling;
+		if (L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		bool L_2 = __this->___isFlying;
+		if (!L_2)
+		{
+			goto IL_0019;
+		}
+	}
+
+IL_0018:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:88>
+		return;
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:89>
+		bool L_3 = __this->___isGrounded;
+		if (L_3)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:91>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = __this->___characterRigidBody;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Vector3_get_down_mF62B2AE7C5AC31EAC9CB62797C7190C90A7A8599_inline(NULL);
+		float L_6 = __this->___jumpForce;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_5, L_6, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_7, (2.0f), NULL);
+		NullCheck(L_4);
+		Rigidbody_AddForce_mBDBC288D0E266BC1B62E3649B4FCE46E7EA9CCBC(L_4, L_8, 1, NULL);
+	}
+
+IL_0047:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:93>
+		CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* L_9 = __this->___characterData;
+		NullCheck(L_9);
+		String_t* L_10 = L_9->___rolllAnimationName;
+		Character_PlayGroundAnimation_mD87D152B1A7D4939F2B267A2C480514C39292A60(__this, L_10, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:94>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_11 = __this->___onRoll;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_12 = L_11;
+		if (L_12)
+		{
+			G_B8_0 = L_12;
+			goto IL_0064;
+		}
+		G_B7_0 = L_12;
+	}
+	{
+		goto IL_0069;
+	}
+
+IL_0064:
+	{
+		NullCheck(G_B8_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B8_0, NULL);
+	}
+
+IL_0069:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:95>
+		__this->___isRolling = (bool)1;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:96>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_13 = __this->___normalCollider;
+		NullCheck(L_13);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_13, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:97>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_14 = __this->___rollCollider;
+		NullCheck(L_14);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_14, (bool)1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:98>
+		RuntimeObject* L_15;
+		L_15 = Character_ResetRoll_m031E4784DDE1215CBA64C72E4732B1190E7ACD44(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_16;
+		L_16 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_15, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:99>
+		return;
+	}
+}
+// Method Definition Index: 68476
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_MoveLeft_m5E73AAD430330C52B299B7DACE2A3CB76C91E46C (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:102>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		float L_2 = L_1.___x;
+		float L_3 = __this->___distanceToMove;
+		if ((!(((float)L_2) <= ((float)((-L_3))))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:102>
+		return;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:103>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_get_left_m8C1116485A9E689760AEE1142F5977852278B7E1_inline(NULL);
+		Character_Move_m08D57898C7F890C7913CB358F7A5B73DE5316234(__this, L_4, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:104>
+		return;
+	}
+}
+// Method Definition Index: 68477
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_MoveRight_m4A29CAE04A1E93D701D3054D3527C95C0DDD483D (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:107>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		float L_2 = L_1.___x;
+		float L_3 = __this->___distanceToMove;
+		if ((!(((float)L_2) >= ((float)L_3))))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:107>
+		return;
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:108>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline(NULL);
+		Character_Move_m08D57898C7F890C7913CB358F7A5B73DE5316234(__this, L_4, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:109>
+		return;
+	}
+}
+// Method Definition Index: 68478
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_Move_m08D57898C7F890C7913CB358F7A5B73DE5316234 (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Character_U3CMoveU3Eb__39_0_mAA5C24BF06466038163C19B0FA203C00ABC62D92_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TweenSettingsExtensions_OnComplete_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_m5D6178C188AE17452C826243FDD0E412B6304A3F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TweenSettingsExtensions_SetEase_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_mEACEF6A6E654DEDDB2620CD0BE1DA29C023F4E2F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B5_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B4_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:112>
+		bool L_0 = __this->___isMoving;
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		bool L_1 = __this->___isActive;
+		if (L_1)
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:112>
+		return;
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:113>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_2 = __this->___onMoveToSide;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_3 = L_2;
+		if (L_3)
+		{
+			G_B5_0 = L_3;
+			goto IL_001d;
+		}
+		G_B4_0 = L_3;
+	}
+	{
+		goto IL_0022;
+	}
+
+IL_001d:
+	{
+		NullCheck(G_B5_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B5_0, NULL);
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:114>
+		CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* L_4 = __this->___characterData;
+		NullCheck(L_4);
+		String_t* L_5 = L_4->___moveAnimationName;
+		Character_PlayGroundAnimation_mD87D152B1A7D4939F2B267A2C480514C39292A60(__this, L_5, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:115>
+		__this->___isMoving = (bool)1;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:116>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_direction;
+		float L_9 = __this->___distanceToMove;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_8, L_9, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_7, L_10, NULL);
+		V_0 = L_11;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:118>
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:119>
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:120>
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:121>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		float L_14 = __this->___moveDuration;
+		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_15;
+		L_15 = ShortcutExtensions_DOMove_m82274FDC0216A91A1FAF16844805D06BF9A287FF(L_12, L_13, L_14, (bool)0, NULL);
+		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_16;
+		L_16 = TweenSettingsExtensions_SetEase_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_mEACEF6A6E654DEDDB2620CD0BE1DA29C023F4E2F(L_15, 6, TweenSettingsExtensions_SetEase_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_mEACEF6A6E654DEDDB2620CD0BE1DA29C023F4E2F_RuntimeMethod_var);
+		TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* L_17 = (TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24*)il2cpp_codegen_object_new(TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24_il2cpp_TypeInfo_var);
+		TweenCallback__ctor_m68CC9304423CBDE43001F9B1413B5DAAF70DB621(L_17, __this, (intptr_t)((void*)Character_U3CMoveU3Eb__39_0_mAA5C24BF06466038163C19B0FA203C00ABC62D92_RuntimeMethod_var), NULL);
+		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_18;
+		L_18 = TweenSettingsExtensions_OnComplete_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_m5D6178C188AE17452C826243FDD0E412B6304A3F(L_16, L_17, TweenSettingsExtensions_OnComplete_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_m5D6178C188AE17452C826243FDD0E412B6304A3F_RuntimeMethod_var);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:122>
+		return;
+	}
+}
+// Method Definition Index: 68479
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Character_ResetRoll_m031E4784DDE1215CBA64C72E4732B1190E7ACD44 (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615* L_0 = (U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615*)il2cpp_codegen_object_new(U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615_il2cpp_TypeInfo_var);
+		U3CResetRollU3Ed__40__ctor_mF26285E0139D9D9721CCFF7D90C39E7C3FD32A02(L_0, 0, NULL);
+		U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 68480
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_OnCollisionEnter_mC6F67F40FF9D8A3CA7403CB0ACC08455276EBFBE (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* ___0_collision, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7A65EFC5BB52048E35B0D3E2214BCF8CE116440A);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:133>
+		bool L_0 = __this->___isActive;
+		if (!L_0)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_1 = ___0_collision;
+		NullCheck(L_1);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Collision_get_gameObject_m846FADBCA43E1849D3FE4D5EA44C02D055A70B3E(L_1, NULL);
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = GameObject_CompareTag_m6378BE50D009A93D46036F74CC3F7E2ECB0636E5(L_2, _stringLiteral7A65EFC5BB52048E35B0D3E2214BCF8CE116440A, NULL);
+		if (!L_3)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:135>
+		bool L_4 = __this->___isRolling;
+		if (L_4)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:137>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = __this->___characterAnimator;
+		CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* L_6 = __this->___characterData;
+		NullCheck(L_6);
+		String_t* L_7 = L_6->___runAnimationName;
+		NullCheck(L_5);
+		Animator_Play_m5565F093F0752D4DD9B451686F71C7A8F23F6744(L_5, L_7, 0, (0.0f), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:138>
+		__this->___isGrounded = (bool)1;
+	}
+
+IL_0045:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:141>
+		return;
+	}
+}
+// Method Definition Index: 68481
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character__ctor_m9D8D6104D9CB19DAE6866ECA929FFB0F2592DD19 (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:14>
+		__this->___jumpForce = (5.0f);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:21>
+		__this->___distanceToMove = (2.0f);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:23>
+		__this->___moveDuration = (0.200000003f);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:36>
+		__this->___isGrounded = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 68482
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Character_U3CMoveU3Eb__39_0_mAA5C24BF06466038163C19B0FA203C00ABC62D92 (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:120>
+		__this->___isMoving = (bool)0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:121>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68483
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResetRollU3Ed__40__ctor_mF26285E0139D9D9721CCFF7D90C39E7C3FD32A02 (U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68484
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResetRollU3Ed__40_System_IDisposable_Dispose_mD88C3F5D785277FF496C76D7A8F64C62E9FD7B12 (U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 68485
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CResetRollU3Ed__40_MoveNext_mADA9B09DE0781BF28D851483BC868866F2231D0D (U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* V_1 = NULL;
+	AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_0039;
+			}
+			case 2:
+			{
+				goto IL_0068;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:125>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0039:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:126>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_3 = V_1;
+		NullCheck(L_3);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_4 = L_3->___characterAnimator;
+		NullCheck(L_4);
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 L_5;
+		L_5 = Animator_GetCurrentAnimatorStateInfo_mD5B526FA605F6CFBC31B7DE36740F6AD1E534CAD(L_4, 0, NULL);
+		V_2 = L_5;
+		float L_6;
+		L_6 = AnimatorStateInfo_get_length_m2FAE317264F7C796427207F8F28E550DB49F9541((&V_2), NULL);
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, L_6, NULL);
+		__this->___U3CU3E2__current = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_7);
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_0068:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:127>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_8 = V_1;
+		NullCheck(L_8);
+		L_8->___isRolling = (bool)0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:128>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_9 = V_1;
+		NullCheck(L_9);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_10 = L_9->___normalCollider;
+		NullCheck(L_10);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_10, (bool)1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:129>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_11 = V_1;
+		NullCheck(L_11);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_12 = L_11->___rollCollider;
+		NullCheck(L_12);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_12, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:130>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68486
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CResetRollU3Ed__40_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8E3BB703F4DFB8F877B72C9AC44AADCAD43DCFDD (U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68487
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CResetRollU3Ed__40_System_Collections_IEnumerator_Reset_m159AC9CDF0BA888E328CF1D9F9BBFEC18F7E0E75 (U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CResetRollU3Ed__40_System_Collections_IEnumerator_Reset_m159AC9CDF0BA888E328CF1D9F9BBFEC18F7E0E75_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68488
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CResetRollU3Ed__40_System_Collections_IEnumerator_get_Current_mEDE6F074EE60825AA57AF07904C69234624DE623 (U3CResetRollU3Ed__40_t83A699164A93CEB2962A962C1A57DE34F5C91615* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68489
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterData__ctor_m3FED46C20F2E3ED709F5A117674E38E7CC5E7E9F (CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral052C17E9D6BC1FE3DB31F3277AED6D12A2C6BDAC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral539886CC0D6E626CD59CCCB9A251E15C3F8DC3EE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral74B83A50A58269C4EECA165C2ABB62B80AAFC9D0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA12C13441E908B46D0E8552680587F5595D959F4);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CharacterData.cs:6>
+		__this->___jumpAnimationName = _stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___jumpAnimationName), (void*)_stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CharacterData.cs:7>
+		__this->___moveAnimationName = _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___moveAnimationName), (void*)_stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CharacterData.cs:8>
+		__this->___rolllAnimationName = _stringLiteralA12C13441E908B46D0E8552680587F5595D959F4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___rolllAnimationName), (void*)_stringLiteralA12C13441E908B46D0E8552680587F5595D959F4);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CharacterData.cs:9>
+		__this->___loseAnimationName = _stringLiteral74B83A50A58269C4EECA165C2ABB62B80AAFC9D0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___loseAnimationName), (void*)_stringLiteral74B83A50A58269C4EECA165C2ABB62B80AAFC9D0);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CharacterData.cs:10>
+		__this->___runAnimationName = _stringLiteral052C17E9D6BC1FE3DB31F3277AED6D12A2C6BDAC;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___runAnimationName), (void*)_stringLiteral052C17E9D6BC1FE3DB31F3277AED6D12A2C6BDAC);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CharacterData.cs:11>
+		__this->___flyAnimationName = _stringLiteral539886CC0D6E626CD59CCCB9A251E15C3F8DC3EE;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___flyAnimationName), (void*)_stringLiteral539886CC0D6E626CD59CCCB9A251E15C3F8DC3EE);
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68490
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoinFollow_Awake_mD5A0176010D791864F4A5E2B49526E30CA801793 (CoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:14>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_0, NULL);
+		__this->___originalPosition = L_1;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:15>
+		return;
+	}
+}
+// Method Definition Index: 68491
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoinFollow_Onnable_m31F898FB37C499917C33CFD06770B70CC627340A (CoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:18>
+		__this->___canFollow = (bool)1;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:19>
+		__this->___player = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___player), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:20>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->___originalPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		bool L_2;
+		L_2 = Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline(L_0, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:20>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = __this->___originalPosition;
+		NullCheck(L_3);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_3, L_4, NULL);
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:21>
+		return;
+	}
+}
+// Method Definition Index: 68492
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoinFollow_StartFollowing_m26D91BD44CCCF7402BBDC7B2D40646FFBA60223C (CoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_playerTransform, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:24>
+		bool L_0 = __this->___canFollow;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:24>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:25>
+		__this->___canFollow = (bool)0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:26>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = ___0_playerTransform;
+		__this->___player = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___player), (void*)L_1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:27>
+		return;
+	}
+}
+// Method Definition Index: 68493
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoinFollow_Update_m2457E330A8B21A83EFD4977C9F6E20213D80310E (CoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisPlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047_mA708DAABA9526EB3454CA05C49A131D3EFA64F1D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	PlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047* G_B4_0 = NULL;
+	PlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047* G_B3_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:30>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___player;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:32>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___player;
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		V_0 = L_3;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:33>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
+		float L_8 = __this->___followSpeed;
+		float L_9;
+		L_9 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_6, L_7, ((float)il2cpp_codegen_multiply(L_8, L_9)), NULL);
+		NullCheck(L_4);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_4, L_10, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:34>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_11);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_11, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		float L_14;
+		L_14 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_12, L_13, NULL);
+		float L_15 = __this->___minimumDistance;
+		if ((!(((float)L_14) < ((float)L_15))))
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:36>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = __this->___player;
+		NullCheck(L_16);
+		PlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047* L_17;
+		L_17 = Component_GetComponent_TisPlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047_mA708DAABA9526EB3454CA05C49A131D3EFA64F1D(L_16, Component_GetComponent_TisPlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047_mA708DAABA9526EB3454CA05C49A131D3EFA64F1D_RuntimeMethod_var);
+		PlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047* L_18 = L_17;
+		if (L_18)
+		{
+			G_B4_0 = L_18;
+			goto IL_006c;
+		}
+		G_B3_0 = L_18;
+	}
+	{
+		goto IL_0077;
+	}
+
+IL_006c:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19;
+		L_19 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(G_B4_0);
+		PlayerCollide_CollectWeed_mB01AFB20D081AA4B3A0E569FBA45C7FF6D19C411(G_B4_0, L_19, NULL);
+	}
+
+IL_0077:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:37>
+		__this->___player = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___player), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
+	}
+
+IL_007e:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:40>
+		return;
+	}
+}
+// Method Definition Index: 68494
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoinFollow__ctor_m6FB6FF3EB44DC8C6003100F3AE3F462CCBAE6220 (CoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:7>
+		__this->___followSpeed = (5.0f);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:9>
+		__this->___minimumDistance = (0.0500000007f);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:10>
+		__this->___canFollow = (bool)1;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/CoinFollow.cs:11>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		__this->___originalPosition = L_0;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68495
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/GameManager.cs:12>
+		GameManager_StartGame_m2CAC97E2C33DD5FF5CF10FAF17313080A85464B7(__this, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/GameManager.cs:13>
+		return;
+	}
+}
+// Method Definition Index: 68496
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_StartGame_m2CAC97E2C33DD5FF5CF10FAF17313080A85464B7 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B2_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B1_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/GameManager.cs:16>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___onGameStart;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000b;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		NullCheck(G_B2_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B2_0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/GameManager.cs:17>
+		return;
+	}
+}
+// Method Definition Index: 68497
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_LoseGame_mB7DE5930DE27B7CAB18E62A82627810F77B44DE7 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B2_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B1_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/GameManager.cs:20>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_0 = __this->___onGameLose;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000b;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		NullCheck(G_B2_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B2_0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/GameManager.cs:21>
+		return;
+	}
+}
+// Method Definition Index: 68498
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68499
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InstantiatePoolObjects_Initialize_m7438FE1158BF258F3D863D835E2D7C0FE5CE6148 (InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:11>
+		__this->___currentObject = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentObject), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:12>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___objectPool;
+		NullCheck(L_0);
+		List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_inline(L_0, List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_RuntimeMethod_var);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:13>
+		return;
+	}
+}
+// Method Definition Index: 68500
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InstantiatePoolObjects_InstantiateObject_m11E11C87403927450B6F65033C5B572226892C11 (InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:16>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = InstantiatePoolObjects_GetPoolObject_m3545D85F082125450BE40ED10659135992687971(__this, NULL);
+		__this->___currentObject = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentObject), (void*)L_0);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:17>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___currentObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:19>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___currentObject;
+		NullCheck(L_3);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_3, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = ___0_target;
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
+		NullCheck(L_4);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_4, L_6, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:20>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___currentObject;
+		NullCheck(L_7);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = ___0_target;
+		NullCheck(L_9);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10;
+		L_10 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_9, NULL);
+		NullCheck(L_8);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_8, L_10, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:21>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___currentObject;
+		NullCheck(L_11);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)1, NULL);
+	}
+
+IL_0052:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:23>
+		return;
+	}
+}
+// Method Definition Index: 68501
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InstantiatePoolObjects_InstantiateObject_m2E9FE3D8EF779492C6B796EC5A4BAFA82D4A1CB3 (InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:26>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = InstantiatePoolObjects_GetPoolObject_m3545D85F082125450BE40ED10659135992687971(__this, NULL);
+		__this->___currentObject = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentObject), (void*)L_0);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:27>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___currentObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:29>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___currentObject;
+		NullCheck(L_3);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_3, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___0_position;
+		NullCheck(L_4);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_4, L_5, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:30>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___currentObject;
+		NullCheck(L_6);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
+		L_7 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_6, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
+		L_8 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		NullCheck(L_7);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_7, L_8, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:31>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___currentObject;
+		NullCheck(L_9);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
+	}
+
+IL_004c:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:33>
+		return;
+	}
+}
+// Method Definition Index: 68502
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* InstantiatePoolObjects_GetPoolObject_m3545D85F082125450BE40ED10659135992687971 (InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_2 = NULL;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_3 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:36>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___objectPool;
+		NullCheck(L_0);
+		Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_1;
+		L_1 = List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8(L_0, List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var);
+		V_1 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_002d:
+			{
+				Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D((&V_1), Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0022_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:36>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+				L_2 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_1), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
+				V_2 = L_2;
+				//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:38>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = V_2;
+				NullCheck(L_3);
+				bool L_4;
+				L_4 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_3, NULL);
+				if (L_4)
+				{
+					goto IL_0022_1;
+				}
+			}
+			{
+				//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:40>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = V_2;
+				V_3 = L_5;
+				goto IL_005c;
+			}
+
+IL_0022_1:
+			{
+				//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:36>
+				bool L_6;
+				L_6 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_1), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
+				if (L_6)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_003b;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:43>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___prefab;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
+		L_8 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_7, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		V_0 = L_8;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:44>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = V_0;
+		NullCheck(L_9);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:45>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_10 = __this->___objectPool;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = V_0;
+		NullCheck(L_10);
+		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_10, L_11, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:46>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = V_0;
+		return L_12;
+	}
+
+IL_005c:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:47>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = V_3;
+		return L_13;
+	}
+}
+// Method Definition Index: 68503
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* InstantiatePoolObjects_GetCurrentObject_mF6E6EA80F70701614980E1A9D4E6371C77B58F31 (InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:50>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___currentObject;
+		return L_0;
+	}
+}
+// Method Definition Index: 68504
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InstantiatePoolObjects_DeactivateAllObjects_m04C47DC1371E6350CD29C279A056CF947F07711B (InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:55>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___objectPool;
+		NullCheck(L_0);
+		Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_1;
+		L_1 = List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8(L_0, List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0026:
+			{
+				Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D((&V_0), Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_001b_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:55>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+				L_2 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_0), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
+				//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:57>
+				NullCheck(L_2);
+				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+			}
+
+IL_001b_1:
+			{
+				//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:55>
+				bool L_3;
+				L_3 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_0), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
+				if (L_3)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_0034;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0034:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:59>
+		return;
+	}
+}
+// Method Definition Index: 68505
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InstantiatePoolObjects__ctor_m3AF4EE402B8EF57E5517E555D1CA66F9B2FF4FCC (InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:7>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
+		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_0, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
+		__this->___objectPool = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectPool), (void*)L_0);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68506
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JetpackPowerUp_Awake_m5FB458FCB7615CF41F1F6145E8897826ACCA2DC4 (JetpackPowerUp_t7F2F638216AC56F4F15F33B7300A8B3AC7393BD5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:22>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___jetPackAsset;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:23>
+		return;
+	}
+}
+// Method Definition Index: 68507
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JetpackPowerUp_Activate_mC04BD195576C84E9FBB2E2AB4CB753182D0081F3 (JetpackPowerUp_t7F2F638216AC56F4F15F33B7300A8B3AC7393BD5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TweenSettingsExtensions_SetEase_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_mEACEF6A6E654DEDDB2620CD0BE1DA29C023F4E2F_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B5_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B4_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:26>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_0 = __this->___character;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = Character_get_IsActive_m9EB7899E6937EC256602700794561E2779AF58B9_inline(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_2 = __this->___character;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = Character_get_IsFlying_mFB9C0F3A3DDB49038E539E6E30EE6855ACD449DA_inline(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_001b;
+		}
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:26>
+		return;
+	}
+
+IL_001b:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:27>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_4 = __this->___character;
+		NullCheck(L_4);
+		Character_set_IsFlying_mF91790BCE1C02F0A6FCC02CF6D34659A6FBDFADD_inline(L_4, (bool)1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:28>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___jetPackAsset;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:29>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_6 = __this->___onJetpackActivated;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_7 = L_6;
+		if (L_7)
+		{
+			G_B5_0 = L_7;
+			goto IL_003f;
+		}
+		G_B4_0 = L_7;
+	}
+	{
+		goto IL_0044;
+	}
+
+IL_003f:
+	{
+		NullCheck(G_B5_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B5_0, NULL);
+	}
+
+IL_0044:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:30>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_8 = __this->___character;
+		NullCheck(L_8);
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_9;
+		L_9 = Character_get_CharacterRigidbody_m7B3F5432D3D75F31BE0C3EA73F1C430397EC9CBB_inline(L_8, NULL);
+		NullCheck(L_9);
+		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_9, (bool)1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:31>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_10 = __this->___character;
+		NullCheck(L_10);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_10, NULL);
+		float L_12 = __this->___flyingHeight;
+		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_13;
+		L_13 = ShortcutExtensions_DOMoveY_m7986D5CC9DCD45AED6BC48F87C306CCED2B6BE62(L_11, L_12, (1.0f), (bool)0, NULL);
+		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_14;
+		L_14 = TweenSettingsExtensions_SetEase_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_mEACEF6A6E654DEDDB2620CD0BE1DA29C023F4E2F(L_13, 6, TweenSettingsExtensions_SetEase_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_mEACEF6A6E654DEDDB2620CD0BE1DA29C023F4E2F_RuntimeMethod_var);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:32>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_15 = __this->___character;
+		NullCheck(L_15);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_16;
+		L_16 = Character_get_CharacterAnimator_m9ABB864EE44B14D40FBF8992AD52425B69F306FF_inline(L_15, NULL);
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_17 = __this->___character;
+		NullCheck(L_17);
+		CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* L_18;
+		L_18 = Character_get_CharacterData_m77C135E0C6E1EE87D449DF12E2E6BB41C48B72E2_inline(L_17, NULL);
+		NullCheck(L_18);
+		String_t* L_19 = L_18->___flyAnimationName;
+		NullCheck(L_16);
+		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_16, L_19, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:33>
+		RuntimeObject* L_20;
+		L_20 = JetpackPowerUp_DeactivateJetPack_m1EBCE399F6D49CC0F7D86A5F8CF2652E996C3478(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_21;
+		L_21 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_20, NULL);
+		__this->___flyCoroutine = L_21;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___flyCoroutine), (void*)L_21);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:34>
+		return;
+	}
+}
+// Method Definition Index: 68508
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JetpackPowerUp_DeactivateJetPack_m1EBCE399F6D49CC0F7D86A5F8CF2652E996C3478 (JetpackPowerUp_t7F2F638216AC56F4F15F33B7300A8B3AC7393BD5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11* L_0 = (U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11*)il2cpp_codegen_object_new(U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11_il2cpp_TypeInfo_var);
+		U3CDeactivateJetPackU3Ed__8__ctor_m5A80378129C04884C1B0DE286E56648B36F7F830(L_0, 0, NULL);
+		U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 68509
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JetpackPowerUp_Deactivate_m438F4BC6590A19A0BE4C1A28B72D1FB284291431 (JetpackPowerUp_t7F2F638216AC56F4F15F33B7300A8B3AC7393BD5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:42>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___flyCoroutine;
+		if (!L_0)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:44>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1 = __this->___flyCoroutine;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:45>
+		__this->___flyCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___flyCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
+	}
+
+IL_001b:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:47>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_2 = __this->___character;
+		NullCheck(L_2);
+		Character_set_IsFlying_mF91790BCE1C02F0A6FCC02CF6D34659A6FBDFADD_inline(L_2, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:48>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___jetPackAsset;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:49>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_4 = __this->___character;
+		NullCheck(L_4);
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5;
+		L_5 = Character_get_CharacterRigidbody_m7B3F5432D3D75F31BE0C3EA73F1C430397EC9CBB_inline(L_4, NULL);
+		NullCheck(L_5);
+		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_5, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:50>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_6 = __this->___character;
+		NullCheck(L_6);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_7;
+		L_7 = Character_get_CharacterAnimator_m9ABB864EE44B14D40FBF8992AD52425B69F306FF_inline(L_6, NULL);
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_8 = __this->___character;
+		NullCheck(L_8);
+		CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* L_9;
+		L_9 = Character_get_CharacterData_m77C135E0C6E1EE87D449DF12E2E6BB41C48B72E2_inline(L_8, NULL);
+		NullCheck(L_9);
+		String_t* L_10 = L_9->___jumpAnimationName;
+		NullCheck(L_7);
+		Animator_Play_m0F6A9F84B2E256E644D56C34A7A9BD622CB00FF9(L_7, L_10, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:51>
+		return;
+	}
+}
+// Method Definition Index: 68510
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JetpackPowerUp__ctor_m57366263ED8C02B98689A684D60FDE5B1D7C3897 (JetpackPowerUp_t7F2F638216AC56F4F15F33B7300A8B3AC7393BD5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:10>
+		__this->___flyingHeight = (4.5f);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:16>
+		__this->___flyDuration = (5.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68511
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeactivateJetPackU3Ed__8__ctor_m5A80378129C04884C1B0DE286E56648B36F7F830 (U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68512
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeactivateJetPackU3Ed__8_System_IDisposable_Dispose_m495FB1599FEA604135143AF0FBA0F3B310873A0E (U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 68513
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDeactivateJetPackU3Ed__8_MoveNext_mF0946ECA860D41BD194052102DB2E12821FFA117 (U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	JetpackPowerUp_t7F2F638216AC56F4F15F33B7300A8B3AC7393BD5* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		JetpackPowerUp_t7F2F638216AC56F4F15F33B7300A8B3AC7393BD5* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:37>
+		JetpackPowerUp_t7F2F638216AC56F4F15F33B7300A8B3AC7393BD5* L_4 = V_1;
+		NullCheck(L_4);
+		float L_5 = L_4->___flyDuration;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_6 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_6, L_5, NULL);
+		__this->___U3CU3E2__current = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_6);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0038:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:38>
+		JetpackPowerUp_t7F2F638216AC56F4F15F33B7300A8B3AC7393BD5* L_7 = V_1;
+		NullCheck(L_7);
+		JetpackPowerUp_Deactivate_m438F4BC6590A19A0BE4C1A28B72D1FB284291431(L_7, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JetpackPowerUp.cs:39>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68514
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDeactivateJetPackU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD38BB36FA1CF2DC370B29503B22D6EA318570428 (U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68515
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeactivateJetPackU3Ed__8_System_Collections_IEnumerator_Reset_mB799B75D94F099569A675C001C45BA6B410E06A1 (U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDeactivateJetPackU3Ed__8_System_Collections_IEnumerator_Reset_mB799B75D94F099569A675C001C45BA6B410E06A1_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68516
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDeactivateJetPackU3Ed__8_System_Collections_IEnumerator_get_Current_mB5891EAF7997723D5ACD6920EDCD6CF73210C6E7 (U3CDeactivateJetPackU3Ed__8_t4B7E9AB7C3D3E40B32107B78CD46F0DCCACEDE11* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68517
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JumpPowerUp_Awake_m0E72A70F952C6032DCD81F0189F285E064325048 (JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:18>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_0 = __this->___character;
+		NullCheck(L_0);
+		float L_1;
+		L_1 = Character_get_JumpForce_mB5F57DDC056EA1A11B868D68FCAEB4DEFC755CA6_inline(L_0, NULL);
+		__this->___originalJumpForce = L_1;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:19>
+		return;
+	}
+}
+// Method Definition Index: 68518
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JumpPowerUp_Activate_m0CC193500232B54481C6E8D993151AE3DD7B5FC1 (JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:22>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_0 = __this->___character;
+		NullCheck(L_0);
+		float L_1;
+		L_1 = Character_get_JumpForce_mB5F57DDC056EA1A11B868D68FCAEB4DEFC755CA6_inline(L_0, NULL);
+		__this->___originalJumpForce = L_1;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:23>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_2 = __this->___character;
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_3 = L_2;
+		NullCheck(L_3);
+		float L_4;
+		L_4 = Character_get_JumpForce_mB5F57DDC056EA1A11B868D68FCAEB4DEFC755CA6_inline(L_3, NULL);
+		float L_5 = __this->___jumpForceMultiplier;
+		NullCheck(L_3);
+		Character_set_JumpForce_m9D38872606D16B887CB7E275110B9A181B71C44F_inline(L_3, ((float)il2cpp_codegen_multiply(L_4, L_5)), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:24>
+		RuntimeObject* L_6;
+		L_6 = JumpPowerUp_DeactivateAfterDuration_m16A5D86066D76E20F80FAFCB1C18D2C040106871(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_7;
+		L_7 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_6, NULL);
+		__this->___powerUpCoroutine = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___powerUpCoroutine), (void*)L_7);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:25>
+		return;
+	}
+}
+// Method Definition Index: 68519
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JumpPowerUp_ActivateMangos_m77F72EA0E8B3445093E8AAE1A6A8C6B8C2482467 (JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* __this, bool ___0_isActive, const RuntimeMethod* method) 
+{
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:28>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->___mangos;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_0018;
+	}
+
+IL_000b:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:28>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = V_0;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:30>
+		bool L_5 = ___0_isActive;
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, L_5, NULL);
+		int32_t L_6 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_6, 1));
+	}
+
+IL_0018:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:28>
+		int32_t L_7 = V_1;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_8 = V_0;
+		NullCheck(L_8);
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length)))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 68520
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JumpPowerUp_DeactivateAfterDuration_m16A5D86066D76E20F80FAFCB1C18D2C040106871 (JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0* L_0 = (U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0*)il2cpp_codegen_object_new(U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0_il2cpp_TypeInfo_var);
+		U3CDeactivateAfterDurationU3Ed__9__ctor_m4BF2409928FF88A614200D7FD3815DA4C37150D0(L_0, 0, NULL);
+		U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 68521
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JumpPowerUp_Deactivate_m68AABE3D0D7D6A556DAC951285612B187DF8B5B1 (JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:42>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___powerUpCoroutine;
+		if (!L_0)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:44>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1 = __this->___powerUpCoroutine;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:45>
+		__this->___powerUpCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___powerUpCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
+	}
+
+IL_001b:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:47>
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_2 = __this->___character;
+		float L_3 = __this->___originalJumpForce;
+		NullCheck(L_2);
+		Character_set_JumpForce_m9D38872606D16B887CB7E275110B9A181B71C44F_inline(L_2, L_3, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:48>
+		JumpPowerUp_ActivateMangos_m77F72EA0E8B3445093E8AAE1A6A8C6B8C2482467(__this, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:49>
+		return;
+	}
+}
+// Method Definition Index: 68522
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JumpPowerUp__ctor_mD241B76D9136E1BEA9543EEC16E02EC5CDFF300D (JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:7>
+		__this->___jumpForceMultiplier = (1.5f);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:9>
+		__this->___duration = (5.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68523
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeactivateAfterDurationU3Ed__9__ctor_m4BF2409928FF88A614200D7FD3815DA4C37150D0 (U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68524
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeactivateAfterDurationU3Ed__9_System_IDisposable_Dispose_m9392BD7C82D7E35E1EA5294C08863687EE9900FF (U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 68525
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDeactivateAfterDurationU3Ed__9_MoveNext_m8F1EAD9B9A93D2453133D217568C4BF049DC4FA4 (U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:35>
+		JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* L_4 = V_1;
+		NullCheck(L_4);
+		JumpPowerUp_ActivateMangos_m77F72EA0E8B3445093E8AAE1A6A8C6B8C2482467(L_4, (bool)1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:36>
+		JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* L_5 = V_1;
+		NullCheck(L_5);
+		float L_6 = L_5->___duration;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, L_6, NULL);
+		__this->___U3CU3E2__current = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_7);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_003f:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:37>
+		JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* L_8 = V_1;
+		NullCheck(L_8);
+		Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* L_9 = L_8->___character;
+		JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* L_10 = V_1;
+		NullCheck(L_10);
+		float L_11 = L_10->___originalJumpForce;
+		NullCheck(L_9);
+		Character_set_JumpForce_m9D38872606D16B887CB7E275110B9A181B71C44F_inline(L_9, L_11, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:38>
+		JumpPowerUp_t2F806B511571A430666BEAFC25D17AF9AA839A1E* L_12 = V_1;
+		NullCheck(L_12);
+		JumpPowerUp_ActivateMangos_m77F72EA0E8B3445093E8AAE1A6A8C6B8C2482467(L_12, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/JumpPowerUp.cs:39>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68526
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDeactivateAfterDurationU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m84E8669ADEF7927C7940C6610038B9F5722F9696 (U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68527
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeactivateAfterDurationU3Ed__9_System_Collections_IEnumerator_Reset_m02651D52A473A25C0E00ABEE7DDB85C6FF548EC4 (U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDeactivateAfterDurationU3Ed__9_System_Collections_IEnumerator_Reset_m02651D52A473A25C0E00ABEE7DDB85C6FF548EC4_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68528
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDeactivateAfterDurationU3Ed__9_System_Collections_IEnumerator_get_Current_m7EA57FE11B3BA1FF4A65BBBC72F89E039ED24C30 (U3CDeactivateAfterDurationU3Ed__9_tD994D89C37E6FDA69BEF7083D96E41AB3479A9D0* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68529
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MagnetCollider_OnTriggerEnter_mC12C42FC95E76CEED7D527FA04D6498C60817244 (MagnetCollider_t2093438C9584F8CE2AB10ED947CAFE34E560D5AE* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612_m50E8C802DC9F275B4D63B45D22B642B0C17DB4B0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE3E58C66ACF79B9FA5839A7A6B1A097F5F677ADE);
+		s_Il2CppMethodInitialized = true;
+	}
+	CoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612* V_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetCollider.cs:9>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_other;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_0, _stringLiteralE3E58C66ACF79B9FA5839A7A6B1A097F5F677ADE, NULL);
+		if (!L_1)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetCollider.cs:11>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_2 = ___0_other;
+		NullCheck(L_2);
+		CoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612* L_3;
+		L_3 = Component_GetComponent_TisCoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612_m50E8C802DC9F275B4D63B45D22B642B0C17DB4B0(L_2, Component_GetComponent_TisCoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612_m50E8C802DC9F275B4D63B45D22B642B0C17DB4B0_RuntimeMethod_var);
+		V_0 = L_3;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetCollider.cs:12>
+		CoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612* L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetCollider.cs:14>
+		CoinFollow_t37E92FD3A3E6FB5A8D278CAE9677417AB079B612* L_6 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->___character;
+		NullCheck(L_6);
+		CoinFollow_StartFollowing_m26D91BD44CCCF7402BBDC7B2D40646FFBA60223C(L_6, L_7, NULL);
+	}
+
+IL_0029:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetCollider.cs:17>
+		return;
+	}
+}
+// Method Definition Index: 68530
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MagnetCollider__ctor_m2788742C8D2ACD39B5B57AC8EA9AB17B24D20012 (MagnetCollider_t2093438C9584F8CE2AB10ED947CAFE34E560D5AE* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68531
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MagnetPowerUp_Activate_mB9A98393079316097A6CCA401BD200C5CC728AD3 (MagnetPowerUp_t49A168309E53F7FCF273AB87B254BBC099DC1647* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:15>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___magnet;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:16>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_1 = __this->___magnetCollider;
+		NullCheck(L_1);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_1, (bool)1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:17>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2 = __this->___deactivateCoroutine;
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:19>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3 = __this->___deactivateCoroutine;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_3, NULL);
+	}
+
+IL_002c:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:21>
+		RuntimeObject* L_4;
+		L_4 = MagnetPowerUp_DeactivateAfterDuration_mAEF1444D0A8289E9F925E2EC2953B0EC5067C99D(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
+		L_5 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_4, NULL);
+		__this->___deactivateCoroutine = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___deactivateCoroutine), (void*)L_5);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:22>
+		return;
+	}
+}
+// Method Definition Index: 68532
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MagnetPowerUp_Deactivate_m70C9B4ED663773E004757AE31CD87A8A1F2CC24D (MagnetPowerUp_t49A168309E53F7FCF273AB87B254BBC099DC1647* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:25>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___deactivateCoroutine;
+		if (!L_0)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:27>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1 = __this->___deactivateCoroutine;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:28>
+		__this->___deactivateCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___deactivateCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
+	}
+
+IL_001b:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:30>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___magnet;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:31>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_3 = __this->___magnetCollider;
+		NullCheck(L_3);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_3, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 68533
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MagnetPowerUp_DeactivateAfterDuration_mAEF1444D0A8289E9F925E2EC2953B0EC5067C99D (MagnetPowerUp_t49A168309E53F7FCF273AB87B254BBC099DC1647* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED* L_0 = (U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED*)il2cpp_codegen_object_new(U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED_il2cpp_TypeInfo_var);
+		U3CDeactivateAfterDurationU3Ed__6__ctor_mDDAD94B4DC26D83BDA3A6ACC4F0500BA43A23B5C(L_0, 0, NULL);
+		U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 68534
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MagnetPowerUp__ctor_mA606E519B56D0D07082EDBF5C67C0F809C72E4B0 (MagnetPowerUp_t49A168309E53F7FCF273AB87B254BBC099DC1647* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:9>
+		__this->___duration = (5.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68535
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeactivateAfterDurationU3Ed__6__ctor_mDDAD94B4DC26D83BDA3A6ACC4F0500BA43A23B5C (U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68536
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeactivateAfterDurationU3Ed__6_System_IDisposable_Dispose_m4B9497881E283D185D05F2EBC83C759E0AE5CA16 (U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 68537
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDeactivateAfterDurationU3Ed__6_MoveNext_m77C85B2895D55E26AF2A34B8AC0223D038C1B448 (U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	MagnetPowerUp_t49A168309E53F7FCF273AB87B254BBC099DC1647* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		MagnetPowerUp_t49A168309E53F7FCF273AB87B254BBC099DC1647* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:35>
+		MagnetPowerUp_t49A168309E53F7FCF273AB87B254BBC099DC1647* L_4 = V_1;
+		NullCheck(L_4);
+		float L_5 = L_4->___duration;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_6 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_6, L_5, NULL);
+		__this->___U3CU3E2__current = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_6);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0038:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:36>
+		MagnetPowerUp_t49A168309E53F7FCF273AB87B254BBC099DC1647* L_7 = V_1;
+		NullCheck(L_7);
+		MagnetPowerUp_Deactivate_m70C9B4ED663773E004757AE31CD87A8A1F2CC24D(L_7, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/MagnetPowerUp.cs:37>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68538
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDeactivateAfterDurationU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7D30964C403EC0A931B1294D8F401F5263C284BA (U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68539
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDeactivateAfterDurationU3Ed__6_System_Collections_IEnumerator_Reset_m1B23E6FD4D0B9D162D036C5031EE9DEC9094A351 (U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDeactivateAfterDurationU3Ed__6_System_Collections_IEnumerator_Reset_m1B23E6FD4D0B9D162D036C5031EE9DEC9094A351_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68540
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDeactivateAfterDurationU3Ed__6_System_Collections_IEnumerator_get_Current_m9ACD790A8C53159AE367371EA1C2C368F003787A (U3CDeactivateAfterDurationU3Ed__6_t20B1E3C01088B31318B4CA8AB139F8B1A87B7FED* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68541
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseManager_PauseGame_m5DCD4D4BDB4689BB293E2F117FA5FA38E0039DED (PauseManager_t84975A438A2233D672703B683A1E557962911022* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PauseManager.cs:14>
+		bool L_0 = __this->___isPaused;
+		if (!L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PauseManager.cs:14>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PauseManager.cs:15>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PauseManager.cs:16>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->___pauseMenuAnimator;
+		String_t* L_2 = __this->___pauseMenuOpenAnimation;
+		NullCheck(L_1);
+		Animator_Play_m5565F093F0752D4DD9B451686F71C7A8F23F6744(L_1, L_2, 0, (0.0f), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PauseManager.cs:17>
+		__this->___isPaused = (bool)1;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PauseManager.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 68542
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseManager_ResumeGame_mA9AF6D0E0DAA1E2E1DB84A65528463FB8F1F473D (PauseManager_t84975A438A2233D672703B683A1E557962911022* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PauseManager.cs:21>
+		bool L_0 = __this->___isPaused;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PauseManager.cs:21>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PauseManager.cs:22>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PauseManager.cs:23>
+		__this->___isPaused = (bool)0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PauseManager.cs:24>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->___pauseMenuAnimator;
+		String_t* L_2 = __this->___pauseMenuCloseAnimation;
+		NullCheck(L_1);
+		Animator_Play_m5565F093F0752D4DD9B451686F71C7A8F23F6744(L_1, L_2, 0, (0.0f), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PauseManager.cs:25>
+		return;
+	}
+}
+// Method Definition Index: 68543
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseManager__ctor_m788EE397EDE791BFFD154E39196C6846960C5929 (PauseManager_t84975A438A2233D672703B683A1E557962911022* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBEF1F71BD3C21C53860EC6863B3105336E4D873B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCA5EF003C43724A30EBD3751479853EC15EA99A5);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PauseManager.cs:6>
+		__this->___pauseMenuOpenAnimation = _stringLiteralBEF1F71BD3C21C53860EC6863B3105336E4D873B;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___pauseMenuOpenAnimation), (void*)_stringLiteralBEF1F71BD3C21C53860EC6863B3105336E4D873B);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PauseManager.cs:8>
+		__this->___pauseMenuCloseAnimation = _stringLiteralCA5EF003C43724A30EBD3751479853EC15EA99A5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___pauseMenuCloseAnimation), (void*)_stringLiteralCA5EF003C43724A30EBD3751479853EC15EA99A5);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68544
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Platform_get_ColliderSize_m44D74638ED1913FE6B6CB7B8E54F3F01CD81E289 (Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:10>
+		float L_0 = __this->___colliderSize;
+		return L_0;
+	}
+}
+// Method Definition Index: 68545
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_Awake_m9126AA306EAEDD30275C9E18B7AEF097114D77F0 (Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:13>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0;
+		L_0 = Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14(__this, Component_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m820398EDBF1D3766C3166A0C323A127662A29A14_RuntimeMethod_var);
+		NullCheck(L_0);
+		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_1;
+		L_1 = Collider_get_bounds_mCC32F749590E9A85C7930E5355661367F78E4CB4(L_0, NULL);
+		V_0 = L_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Bounds_get_size_m0699A53A55A78B3201D7270D6F338DFA91B6FAD4_inline((&V_0), NULL);
+		float L_3 = L_2.___z;
+		__this->___colliderSize = ((float)il2cpp_codegen_multiply(L_3, (0.5f)));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:14>
+		return;
+	}
+}
+// Method Definition Index: 68546
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_OnEnable_mBA7B999AD0EE440E1EB3CD213B2479D52684150A (Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:17>
+		Platform_ActivateWeed_mE4BFB01FC68FB6D94A3C6CB631652E5EF06568C7(__this, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 68547
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Platform_HasWeed_m31BBFB470D17B872B092970DC31E06B873518D23 (Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:21>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->___weed;
+		NullCheck(L_0);
+		return (bool)((!(((uint32_t)(((RuntimeArray*)L_0)->max_length)) <= ((uint32_t)0)))? 1 : 0);
+	}
+}
+// Method Definition Index: 68548
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_ActivateWeed_mE4BFB01FC68FB6D94A3C6CB631652E5EF06568C7 (Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* __this, const RuntimeMethod* method) 
+{
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:25>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->___weed;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_0018;
+	}
+
+IL_000b:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:25>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = V_0;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:27>
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
+		int32_t L_5 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_5, 1));
+	}
+
+IL_0018:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:25>
+		int32_t L_6 = V_1;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_7 = V_0;
+		NullCheck(L_7);
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)(((RuntimeArray*)L_7)->max_length)))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:29>
+		return;
+	}
+}
+// Method Definition Index: 68549
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_AddPowerUp_m3D211B1CED2D99020B3A78DCA00186A08547665D (Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_powerUp, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:32>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->___weed;
+		NullCheck(L_0);
+		if ((((RuntimeArray*)L_0)->max_length))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:32>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:33>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = __this->___weed;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_2 = __this->___weed;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)(((RuntimeArray*)L_2)->max_length)), NULL);
+		NullCheck(L_1);
+		int32_t L_4 = L_3;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_0 = L_5;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:34>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = V_0;
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:35>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = ___0_powerUp;
+		NullCheck(L_7);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_8);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_8, L_9, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:36>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = ___0_powerUp;
+		NullCheck(L_10);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_10, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = V_0;
+		NullCheck(L_12);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
+		L_13 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_12, NULL);
+		NullCheck(L_13);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_13, NULL);
+		NullCheck(L_11);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_11, L_14, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:37>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_15 = __this->___powerUps;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = ___0_powerUp;
+		NullCheck(L_15);
+		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_15, L_16, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:38>
+		return;
+	}
+}
+// Method Definition Index: 68550
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_OnDisable_m06896A31B398A9A01DB7D10928C1C09F99083628 (Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:41>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___powerUps;
+		NullCheck(L_0);
+		Enumerator_t88BD1282EF117E59AACFC9EC55B89F0B9EDACE60 L_1;
+		L_1 = List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8(L_0, List_1_GetEnumerator_mA843D26C63E5963415DFCA6E49DFA27AFD9C75E8_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0026:
+			{
+				Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D((&V_0), Enumerator_Dispose_m07D362A07C19B36C2FD1B4DC79DD99903D4DA95D_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_001b_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:41>
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+				L_2 = Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_inline((&V_0), Enumerator_get_Current_m7236EBE1CFCB6533F96E030500D322B13D0CA5A4_RuntimeMethod_var);
+				//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:43>
+				NullCheck(L_2);
+				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+			}
+
+IL_001b_1:
+			{
+				//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:41>
+				bool L_3;
+				L_3 = Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27((&V_0), Enumerator_MoveNext_m96F4B0BD0A5485C8E8CC57D961DF6F1FA256AF27_RuntimeMethod_var);
+				if (L_3)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_0034;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0034:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:45>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_4 = __this->___powerUps;
+		NullCheck(L_4);
+		List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_inline(L_4, List_1_Clear_m32D399BDD753B5BD6CE27560249096418F3F0867_RuntimeMethod_var);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:46>
+		return;
+	}
+}
+// Method Definition Index: 68551
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform__ctor_m7B49FC4AD80BC236383C1A82204EC91E11369498 (Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:8>
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
+		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_0, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
+		__this->___powerUps = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___powerUps), (void*)L_0);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68552
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformsLimit_OnTriggerEnter_m6F07290355CB0E83326211BF5E5558ADD9A2146D (PlatformsLimit_tB0AAD22DBEA20323554C4CED2FFD5F24157C1213* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
+{
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B3_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B2_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsLimit.cs:12>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_other;
+		String_t* L_1 = __this->___platformsTag;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_0, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsLimit.cs:14>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_3 = ___0_other;
+		NullCheck(L_3);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsLimit.cs:15>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_5 = __this->___onPlatformDetected;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_6 = L_5;
+		if (L_6)
+		{
+			G_B3_0 = L_6;
+			goto IL_0025;
+		}
+		G_B2_0 = L_6;
+	}
+	{
+		return;
+	}
+
+IL_0025:
+	{
+		NullCheck(G_B3_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B3_0, NULL);
+	}
+
+IL_002a:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsLimit.cs:17>
+		return;
+	}
+}
+// Method Definition Index: 68553
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformsLimit__ctor_mB9F412FA8580F27070E3A05802ECD60667F5799D (PlatformsLimit_tB0AAD22DBEA20323554C4CED2FFD5F24157C1213* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7A65EFC5BB52048E35B0D3E2214BCF8CE116440A);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsLimit.cs:7>
+		__this->___platformsTag = _stringLiteral7A65EFC5BB52048E35B0D3E2214BCF8CE116440A;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___platformsTag), (void*)_stringLiteral7A65EFC5BB52048E35B0D3E2214BCF8CE116440A);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68554
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformsManager_StartGame_m5464FCB24E5B24B6C3189769BA306A73A77D807C (PlatformsManager_tAC2627EF63F0B20E4C0BB9C927031F2547D9FE81* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:32>
+		float L_0 = __this->___minSpeed;
+		__this->___speed = L_0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:33>
+		__this->___lastPlatform = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lastPlatform), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:34>
+		__this->___platformsInstantiated = 0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:35>
+		PlatformsManager_InitializePlatforms_m5C879B5265B4EA9B272C07FBB98D32257035FEAF(__this, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:36>
+		int32_t L_1 = __this->___initialPlatforms;
+		PlatformsManager_InstantiatePlatform_m290E74B9D28275111EE9C068C4E7AD320CC0EAD5(__this, L_1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:37>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___platformsPivot;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		NullCheck(L_2);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_2, L_4, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:38>
+		__this->___isRunning = (bool)1;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:39>
+		return;
+	}
+}
+// Method Definition Index: 68555
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformsManager_InitializePlatforms_m5C879B5265B4EA9B272C07FBB98D32257035FEAF (PlatformsManager_tAC2627EF63F0B20E4C0BB9C927031F2547D9FE81* __this, const RuntimeMethod* method) 
+{
+	InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:42>
+		InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* L_0 = __this->___platformPrefabs;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_0017;
+	}
+
+IL_000b:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:42>
+		InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* L_1 = V_0;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:44>
+		NullCheck(L_4);
+		InstantiatePoolObjects_DeactivateAllObjects_m04C47DC1371E6350CD29C279A056CF947F07711B(L_4, NULL);
+		int32_t L_5 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_5, 1));
+	}
+
+IL_0017:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:42>
+		int32_t L_6 = V_1;
+		InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* L_7 = V_0;
+		NullCheck(L_7);
+		if ((((int32_t)L_6) < ((int32_t)((int32_t)(((RuntimeArray*)L_7)->max_length)))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:46>
+		InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* L_8 = __this->___securePlatformPrefabs;
+		V_0 = L_8;
+		V_1 = 0;
+		goto IL_0034;
+	}
+
+IL_0028:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:46>
+		InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* L_9 = V_0;
+		int32_t L_10 = V_1;
+		NullCheck(L_9);
+		int32_t L_11 = L_10;
+		InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:48>
+		NullCheck(L_12);
+		InstantiatePoolObjects_DeactivateAllObjects_m04C47DC1371E6350CD29C279A056CF947F07711B(L_12, NULL);
+		int32_t L_13 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
+	}
+
+IL_0034:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:46>
+		int32_t L_14 = V_1;
+		InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* L_15 = V_0;
+		NullCheck(L_15);
+		if ((((int32_t)L_14) < ((int32_t)((int32_t)(((RuntimeArray*)L_15)->max_length)))))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:50>
+		return;
+	}
+}
+// Method Definition Index: 68556
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformsManager_InstantiateFlyingPlatforms_mB326FF8BC6D877B8CF09389B20CA6154DD186465 (PlatformsManager_tAC2627EF63F0B20E4C0BB9C927031F2547D9FE81* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_character, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisPlatform_tB273231B032B66E0A0CA476D2B180D1705DC80D7_m292AC820B1E97E0CE7E5DCECCB8CEE5665193019_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* V_1 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:53>
+		InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* L_0 = __this->___flyingPlatformPrefabs;
+		InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* L_1 = __this->___flyingPlatformPrefabs;
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)(((RuntimeArray*)L_1)->max_length)), NULL);
+		NullCheck(L_0);
+		int32_t L_3 = L_2;
+		InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:54>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = ___0_character;
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
+		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_7);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_6, L_8, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_10, (2.0f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_9, L_11, NULL);
+		V_0 = L_12;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:55>
+		(&V_0)->___x = (0.0f);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:56>
+		InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* L_13 = L_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_0;
+		NullCheck(L_13);
+		InstantiatePoolObjects_InstantiateObject_m2E9FE3D8EF779492C6B796EC5A4BAFA82D4A1CB3(L_13, L_14, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:57>
+		NullCheck(L_13);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
+		L_15 = InstantiatePoolObjects_GetCurrentObject_mF6E6EA80F70701614980E1A9D4E6371C77B58F31_inline(L_13, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:58>
+		NullCheck(L_15);
+		Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* L_16;
+		L_16 = GameObject_GetComponent_TisPlatform_tB273231B032B66E0A0CA476D2B180D1705DC80D7_m292AC820B1E97E0CE7E5DCECCB8CEE5665193019(L_15, GameObject_GetComponent_TisPlatform_tB273231B032B66E0A0CA476D2B180D1705DC80D7_m292AC820B1E97E0CE7E5DCECCB8CEE5665193019_RuntimeMethod_var);
+		V_1 = L_16;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:59>
+		Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* L_17 = V_1;
+		NullCheck(L_17);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
+		L_18 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_17, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
+		L_19 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_18);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_18, L_19, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:60>
+		Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* L_20 = V_1;
+		NullCheck(L_20);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
+		L_21 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_20, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_0;
+		Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* L_23 = V_1;
+		NullCheck(L_23);
+		float L_24;
+		L_24 = Platform_get_ColliderSize_m44D74638ED1913FE6B6CB7B8E54F3F01CD81E289_inline(L_23, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
+		L_25 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		L_26 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline(L_24, L_25, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_22, L_26, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		float L_29 = __this->___flyingPlatformsHeight;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
+		L_30 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_28, L_29, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		L_31 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_27, L_30, NULL);
+		NullCheck(L_21);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_21, L_31, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:61>
+		return;
+	}
+}
+// Method Definition Index: 68557
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformsManager_InstantiatePlatform_m290E74B9D28275111EE9C068C4E7AD320CC0EAD5 (PlatformsManager_tAC2627EF63F0B20E4C0BB9C927031F2547D9FE81* __this, int32_t ___0_number, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisPlatform_tB273231B032B66E0A0CA476D2B180D1705DC80D7_m292AC820B1E97E0CE7E5DCECCB8CEE5665193019_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m6E414BE9A4E14C9553DAF9BB8059EC516AD11D06_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* V_1 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* V_3 = NULL;
+	UnityEvent_1_tDB20959AD83D727C64BDF86E62C3398C970B7FA3* G_B8_0 = NULL;
+	UnityEvent_1_tDB20959AD83D727C64BDF86E62C3398C970B7FA3* G_B7_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:64>
+		V_0 = 0;
+		goto IL_00f7;
+	}
+
+IL_0007:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:67>
+		int32_t L_0 = __this->___platformsInstantiated;
+		if ((((int32_t)L_0) >= ((int32_t)2)))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:69>
+		InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* L_1 = __this->___securePlatformPrefabs;
+		InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* L_2 = __this->___securePlatformPrefabs;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)(((RuntimeArray*)L_2)->max_length)), NULL);
+		NullCheck(L_1);
+		int32_t L_4 = L_3;
+		InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* L_5 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_1 = L_5;
+		goto IL_003e;
+	}
+
+IL_0028:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:72>
+		InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* L_6 = __this->___platformPrefabs;
+		InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* L_7 = __this->___platformPrefabs;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)(((RuntimeArray*)L_7)->max_length)), NULL);
+		NullCheck(L_6);
+		int32_t L_9 = L_8;
+		InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* L_10 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		V_1 = L_10;
+	}
+
+IL_003e:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:74>
+		int32_t L_11 = __this->___platformsInstantiated;
+		__this->___platformsInstantiated = ((int32_t)il2cpp_codegen_add(L_11, 1));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:75>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_2 = L_12;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:76>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___lastPlatform;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_14)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:78>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___lastPlatform;
+		NullCheck(L_15);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
+		L_16 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_15, NULL);
+		NullCheck(L_16);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_16, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___lastPlatform;
+		NullCheck(L_18);
+		Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* L_19;
+		L_19 = GameObject_GetComponent_TisPlatform_tB273231B032B66E0A0CA476D2B180D1705DC80D7_m292AC820B1E97E0CE7E5DCECCB8CEE5665193019(L_18, GameObject_GetComponent_TisPlatform_tB273231B032B66E0A0CA476D2B180D1705DC80D7_m292AC820B1E97E0CE7E5DCECCB8CEE5665193019_RuntimeMethod_var);
+		NullCheck(L_19);
+		float L_20;
+		L_20 = Platform_get_ColliderSize_m44D74638ED1913FE6B6CB7B8E54F3F01CD81E289_inline(L_19, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
+		L_21 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline(L_20, L_21, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		L_23 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_17, L_22, NULL);
+		V_2 = L_23;
+	}
+
+IL_0090:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:80>
+		InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* L_24 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = V_2;
+		NullCheck(L_24);
+		InstantiatePoolObjects_InstantiateObject_m2E9FE3D8EF779492C6B796EC5A4BAFA82D4A1CB3(L_24, L_25, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:81>
+		InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* L_26 = V_1;
+		NullCheck(L_26);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27;
+		L_27 = InstantiatePoolObjects_GetCurrentObject_mF6E6EA80F70701614980E1A9D4E6371C77B58F31_inline(L_26, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:82>
+		NullCheck(L_27);
+		Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* L_28;
+		L_28 = GameObject_GetComponent_TisPlatform_tB273231B032B66E0A0CA476D2B180D1705DC80D7_m292AC820B1E97E0CE7E5DCECCB8CEE5665193019(L_27, GameObject_GetComponent_TisPlatform_tB273231B032B66E0A0CA476D2B180D1705DC80D7_m292AC820B1E97E0CE7E5DCECCB8CEE5665193019_RuntimeMethod_var);
+		V_3 = L_28;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:83>
+		Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* L_29 = V_3;
+		NullCheck(L_29);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
+		L_30 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_29, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
+		L_31 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_30);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_30, L_31, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:84>
+		Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* L_32 = V_3;
+		NullCheck(L_32);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33;
+		L_33 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_32, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = V_2;
+		Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* L_35 = V_3;
+		NullCheck(L_35);
+		float L_36;
+		L_36 = Platform_get_ColliderSize_m44D74638ED1913FE6B6CB7B8E54F3F01CD81E289_inline(L_35, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
+		L_37 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
+		L_38 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline(L_36, L_37, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
+		L_39 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_34, L_38, NULL);
+		NullCheck(L_33);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_33, L_39, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:85>
+		Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* L_40 = V_3;
+		NullCheck(L_40);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41;
+		L_41 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_40, NULL);
+		__this->___lastPlatform = L_41;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lastPlatform), (void*)L_41);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:86>
+		UnityEvent_1_tDB20959AD83D727C64BDF86E62C3398C970B7FA3* L_42 = __this->___onPlatformPassed;
+		UnityEvent_1_tDB20959AD83D727C64BDF86E62C3398C970B7FA3* L_43 = L_42;
+		if (L_43)
+		{
+			G_B8_0 = L_43;
+			goto IL_00ed;
+		}
+		G_B7_0 = L_43;
+	}
+	{
+		goto IL_00f3;
+	}
+
+IL_00ed:
+	{
+		Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* L_44 = V_3;
+		NullCheck(G_B8_0);
+		UnityEvent_1_Invoke_m6E414BE9A4E14C9553DAF9BB8059EC516AD11D06(G_B8_0, L_44, UnityEvent_1_Invoke_m6E414BE9A4E14C9553DAF9BB8059EC516AD11D06_RuntimeMethod_var);
+	}
+
+IL_00f3:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:64>
+		int32_t L_45 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_45, 1));
+	}
+
+IL_00f7:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:64>
+		int32_t L_46 = V_0;
+		int32_t L_47 = ___0_number;
+		if ((((int32_t)L_46) < ((int32_t)L_47)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:88>
+		return;
+	}
+}
+// Method Definition Index: 68558
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformsManager_Update_m4F933960E363BA34A75252B655966539952AB2FD (PlatformsManager_tAC2627EF63F0B20E4C0BB9C927031F2547D9FE81* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:91>
+		bool L_0 = __this->___isRunning;
+		if (!L_0)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:93>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Vector3_get_back_mCA5A84170E8DE5CE38C0551B4CCAD647BF215E57_inline(NULL);
+		float L_3 = __this->___speed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_2, L_3, NULL);
+		float L_5;
+		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_4, L_5, NULL);
+		NullCheck(L_1);
+		Transform_Translate_m018D015E89C8CB743C54A21B4A1C5202EBF6297A(L_1, L_6, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:94>
+		float L_7 = __this->___speed;
+		float L_8 = __this->___acceleration;
+		float L_9;
+		L_9 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_10 = __this->___maxSpeed;
+		float L_11;
+		L_11 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(((float)il2cpp_codegen_add(L_7, ((float)il2cpp_codegen_multiply(L_8, L_9)))), L_10, NULL);
+		__this->___speed = L_11;
+	}
+
+IL_0051:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:96>
+		return;
+	}
+}
+// Method Definition Index: 68559
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformsManager_StopPlatforms_m5424508B22A89E59C9B28D1D54352F495AE480EE (PlatformsManager_tAC2627EF63F0B20E4C0BB9C927031F2547D9FE81* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:100>
+		__this->___isRunning = (bool)0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:101>
+		return;
+	}
+}
+// Method Definition Index: 68560
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformsManager__ctor_m208AF9561F98AD4547ECA1EFD92122E378046994 (PlatformsManager_tAC2627EF63F0B20E4C0BB9C927031F2547D9FE81* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:15>
+		__this->___flyingPlatformsHeight = (4.5f);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:17>
+		__this->___initialPlatforms = 5;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:19>
+		__this->___minSpeed = (5.0f);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:21>
+		__this->___maxSpeed = (12.0f);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:23>
+		__this->___acceleration = (0.100000001f);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlatformsManager.cs:26>
+		__this->___isRunning = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68561
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCollide_OnTriggerEnter_mC42EAFC4F475CCE630B270E5092333C9CB200A1D (PlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55472DE2552CE59CFFD2E3ECD3616C4569666DEA);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* G_B3_0 = NULL;
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* G_B2_0 = NULL;
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* G_B9_0 = NULL;
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* G_B8_0 = NULL;
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* G_B14_0 = NULL;
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* G_B13_0 = NULL;
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* G_B19_0 = NULL;
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* G_B18_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:26>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_other;
+		String_t* L_1 = __this->___obstacleTag;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_0, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:28>
+		UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* L_3 = __this->___onObstacleCollision;
+		UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* L_4 = L_3;
+		if (L_4)
+		{
+			G_B3_0 = L_4;
+			goto IL_0019;
+		}
+		G_B2_0 = L_4;
+	}
+	{
+		return;
+	}
+
+IL_0019:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(G_B3_0);
+		UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9(G_B3_0, L_5, UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9_RuntimeMethod_var);
+		return;
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:30>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_6 = ___0_other;
+		String_t* L_7 = __this->___weedTag;
+		NullCheck(L_6);
+		bool L_8;
+		L_8 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_6, L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:32>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_9 = ___0_other;
+		NullCheck(L_9);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
+		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
+		PlayerCollide_CollectWeed_mB01AFB20D081AA4B3A0E569FBA45C7FF6D19C411(__this, L_10, NULL);
+		return;
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:34>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_11 = ___0_other;
+		String_t* L_12 = __this->___JumpPowerUpTag;
+		NullCheck(L_11);
+		bool L_13;
+		L_13 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_11, L_12, NULL);
+		if (!L_13)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:36>
+		UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* L_14 = __this->___onJumpPowerUpCollected;
+		UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* L_15 = L_14;
+		if (L_15)
+		{
+			G_B9_0 = L_15;
+			goto IL_005a;
+		}
+		G_B8_0 = L_15;
+	}
+	{
+		goto IL_0065;
+	}
+
+IL_005a:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
+		L_16 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(G_B9_0);
+		UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9(G_B9_0, L_16, UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9_RuntimeMethod_var);
+	}
+
+IL_0065:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:37>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_17 = ___0_other;
+		NullCheck(L_17);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
+		L_18 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_17, NULL);
+		NullCheck(L_18);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
+		return;
+	}
+
+IL_0072:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:39>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_19 = ___0_other;
+		NullCheck(L_19);
+		bool L_20;
+		L_20 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_19, _stringLiteral55472DE2552CE59CFFD2E3ECD3616C4569666DEA, NULL);
+		if (!L_20)
+		{
+			goto IL_00a3;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:41>
+		UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* L_21 = __this->___onMagnetCollected;
+		UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* L_22 = L_21;
+		if (L_22)
+		{
+			G_B14_0 = L_22;
+			goto IL_008b;
+		}
+		G_B13_0 = L_22;
+	}
+	{
+		goto IL_0096;
+	}
+
+IL_008b:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
+		L_23 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(G_B14_0);
+		UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9(G_B14_0, L_23, UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9_RuntimeMethod_var);
+	}
+
+IL_0096:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:42>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_24 = ___0_other;
+		NullCheck(L_24);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
+		L_25 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_24, NULL);
+		NullCheck(L_25);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_25, (bool)0, NULL);
+		return;
+	}
+
+IL_00a3:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:44>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_26 = ___0_other;
+		String_t* L_27 = __this->___jetpackTag;
+		NullCheck(L_26);
+		bool L_28;
+		L_28 = Component_CompareTag_mE6F8897E84F12DF12D302FFC4D58204D51096FC5(L_26, L_27, NULL);
+		if (!L_28)
+		{
+			goto IL_00d4;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:46>
+		UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* L_29 = __this->___onJetpackCollected;
+		UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* L_30 = L_29;
+		if (L_30)
+		{
+			G_B19_0 = L_30;
+			goto IL_00bd;
+		}
+		G_B18_0 = L_30;
+	}
+	{
+		goto IL_00c8;
+	}
+
+IL_00bd:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
+		L_31 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(G_B19_0);
+		UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9(G_B19_0, L_31, UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9_RuntimeMethod_var);
+	}
+
+IL_00c8:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:47>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_32 = ___0_other;
+		NullCheck(L_32);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33;
+		L_33 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_32, NULL);
+		NullCheck(L_33);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_33, (bool)0, NULL);
+	}
+
+IL_00d4:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:49>
+		return;
+	}
+}
+// Method Definition Index: 68562
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCollide_CollectWeed_mB01AFB20D081AA4B3A0E569FBA45C7FF6D19C411 (PlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_weed, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* G_B2_0 = NULL;
+	UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* G_B1_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:52>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_weed;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:53>
+		UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* L_1 = __this->___onWeedCollected;
+		UnityEvent_1_t6F7DAA44329E0A5BBE174392C2710CA4D27B46F9* L_2 = L_1;
+		if (L_2)
+		{
+			G_B2_0 = L_2;
+			goto IL_0012;
+		}
+		G_B1_0 = L_2;
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(G_B2_0);
+		UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9(G_B2_0, L_3, UnityEvent_1_Invoke_m8FBEE0769F307FC400EDC6446C02ED3CCF607FF9_RuntimeMethod_var);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:54>
+		return;
+	}
+}
+// Method Definition Index: 68563
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCollide__ctor_mF69CCCDB87A7DB724093E3A7BCFF856366B9075E (PlayerCollide_t04054182DB162F91EFF880F7AA27A9F930140047* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0C5512A3E21E6E466053F49C8A724B2FE2E0E96B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8866EA3E0BC985BCCB33306B5606BA3D21875437);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDDB91D5B0BDD1824A4CC18C279F4CF0A96D4A900);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE3E58C66ACF79B9FA5839A7A6B1A097F5F677ADE);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:7>
+		__this->___obstacleTag = _stringLiteralDDB91D5B0BDD1824A4CC18C279F4CF0A96D4A900;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___obstacleTag), (void*)_stringLiteralDDB91D5B0BDD1824A4CC18C279F4CF0A96D4A900);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:9>
+		__this->___weedTag = _stringLiteralE3E58C66ACF79B9FA5839A7A6B1A097F5F677ADE;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___weedTag), (void*)_stringLiteralE3E58C66ACF79B9FA5839A7A6B1A097F5F677ADE);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:11>
+		__this->___JumpPowerUpTag = _stringLiteral0C5512A3E21E6E466053F49C8A724B2FE2E0E96B;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___JumpPowerUpTag), (void*)_stringLiteral0C5512A3E21E6E466053F49C8A724B2FE2E0E96B);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PlayerCollide.cs:13>
+		__this->___jetpackTag = _stringLiteral8866EA3E0BC985BCCB33306B5606BA3D21875437;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___jetpackTag), (void*)_stringLiteral8866EA3E0BC985BCCB33306B5606BA3D21875437);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68564
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsManager_StartCounting_m049D4E8A0BA6B02351268B12733A3A2D9B936E99 (PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_mD81A5FC81FD5B0D34212D7ACE42A8BBC15CD7638_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityEvent_1_t7CC0661D6B113117B4CC68761D93AC8DF5DBD66A* G_B2_0 = NULL;
+	UnityEvent_1_t7CC0661D6B113117B4CC68761D93AC8DF5DBD66A* G_B1_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:18>
+		__this->___points = 0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:19>
+		UnityEvent_1_t7CC0661D6B113117B4CC68761D93AC8DF5DBD66A* L_0 = __this->___onPointsChanged;
+		UnityEvent_1_t7CC0661D6B113117B4CC68761D93AC8DF5DBD66A* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0013;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		goto IL_001e;
+	}
+
+IL_0013:
+	{
+		int32_t L_2 = __this->___points;
+		NullCheck(G_B2_0);
+		UnityEvent_1_Invoke_mD81A5FC81FD5B0D34212D7ACE42A8BBC15CD7638(G_B2_0, L_2, UnityEvent_1_Invoke_mD81A5FC81FD5B0D34212D7ACE42A8BBC15CD7638_RuntimeMethod_var);
+	}
+
+IL_001e:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:20>
+		RuntimeObject* L_3;
+		L_3 = PointsManager_CountPoints_mB3F0ED348EC1DAAE4EBBDB96350326B30621C44D(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
+		L_4 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_3, NULL);
+		__this->___pointsCoroutine = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___pointsCoroutine), (void*)L_4);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:21>
+		return;
+	}
+}
+// Method Definition Index: 68565
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsManager_StopCounting_m53A680A5D762ADD92051C4ECAFE96097DB4B8043 (PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:24>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___pointsCoroutine;
+		if (!L_0)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:26>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1 = __this->___pointsCoroutine;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:27>
+		__this->___pointsCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___pointsCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
+	}
+
+IL_001b:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:29>
+		return;
+	}
+}
+// Method Definition Index: 68566
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PointsManager_CountPoints_mB3F0ED348EC1DAAE4EBBDB96350326B30621C44D (PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8* L_0 = (U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8*)il2cpp_codegen_object_new(U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8_il2cpp_TypeInfo_var);
+		U3CCountPointsU3Ed__7__ctor_m0816A4337C31E0E7C432CE6D5A50DEA6F746B4F8(L_0, 0, NULL);
+		U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 68567
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsManager_CalculateHighScore_mA6837F8C149752075FECF4CB339A9119D784E81E (PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral79B0BC20C4F38EB2142290F5EFAB4EF138899A9B);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:41>
+		int32_t L_0;
+		L_0 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral79B0BC20C4F38EB2142290F5EFAB4EF138899A9B, 0, NULL);
+		V_0 = L_0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:42>
+		int32_t L_1 = __this->___points;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_1) <= ((int32_t)L_2)))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:44>
+		int32_t L_3 = __this->___points;
+		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral79B0BC20C4F38EB2142290F5EFAB4EF138899A9B, L_3, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:45>
+		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
+		goto IL_0033;
+	}
+
+IL_002c:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:49>
+		int32_t L_4 = V_0;
+		__this->___points = L_4;
+	}
+
+IL_0033:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:51>
+		PointsManager_UpdatePointsTexts_m367845F72B1FFE48450D917378F6F2F3D94DB47F(__this, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:52>
+		return;
+	}
+}
+// Method Definition Index: 68568
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsManager_UpdatePointsTexts_m367845F72B1FFE48450D917378F6F2F3D94DB47F (PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* __this, const RuntimeMethod* method) 
+{
+	TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:55>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_0 = __this->___pointsTexts;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_0022;
+	}
+
+IL_000b:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:55>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_1 = V_0;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:57>
+		int32_t* L_5 = (int32_t*)(&__this->___points);
+		String_t* L_6;
+		L_6 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_5, NULL);
+		NullCheck(L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_4, L_6);
+		int32_t L_7 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_7, 1));
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:55>
+		int32_t L_8 = V_1;
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_9 = V_0;
+		NullCheck(L_9);
+		if ((((int32_t)L_8) < ((int32_t)((int32_t)(((RuntimeArray*)L_9)->max_length)))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:59>
+		return;
+	}
+}
+// Method Definition Index: 68569
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsManager__ctor_m8302D8B46D63BF847BFEE17C2873045D5529402F (PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:10>
+		__this->___pointsInterval = (0.5f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68570
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCountPointsU3Ed__7__ctor_m0816A4337C31E0E7C432CE6D5A50DEA6F746B4F8 (U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68571
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCountPointsU3Ed__7_System_IDisposable_Dispose_m9B4C29DB6C6E47F58DEC18E549ABBFF513790010 (U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 68572
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCountPointsU3Ed__7_MoveNext_mD6BB5B4EEFFAA17CE5BF490307094DC39267C2CA (U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_mD81A5FC81FD5B0D34212D7ACE42A8BBC15CD7638_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* V_1 = NULL;
+	UnityEvent_1_t7CC0661D6B113117B4CC68761D93AC8DF5DBD66A* G_B7_0 = NULL;
+	UnityEvent_1_t7CC0661D6B113117B4CC68761D93AC8DF5DBD66A* G_B6_0 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_001e:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:34>
+		PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* L_4 = V_1;
+		NullCheck(L_4);
+		float L_5 = L_4->___pointsInterval;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_6 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_6, L_5, NULL);
+		__this->___U3CU3E2__current = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_6);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0038:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:35>
+		PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* L_7 = V_1;
+		PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* L_8 = V_1;
+		NullCheck(L_8);
+		int32_t L_9 = L_8->___points;
+		NullCheck(L_7);
+		L_7->___points = ((int32_t)il2cpp_codegen_add(L_9, 1));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:36>
+		PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* L_10 = V_1;
+		NullCheck(L_10);
+		UnityEvent_1_t7CC0661D6B113117B4CC68761D93AC8DF5DBD66A* L_11 = L_10->___onPointsChanged;
+		UnityEvent_1_t7CC0661D6B113117B4CC68761D93AC8DF5DBD66A* L_12 = L_11;
+		if (L_12)
+		{
+			G_B7_0 = L_12;
+			goto IL_0059;
+		}
+		G_B6_0 = L_12;
+	}
+	{
+		goto IL_001e;
+	}
+
+IL_0059:
+	{
+		PointsManager_t12670482D5D235C3AC51830EBC29AFF7BDDE2EF1* L_13 = V_1;
+		NullCheck(L_13);
+		int32_t L_14 = L_13->___points;
+		NullCheck(G_B7_0);
+		UnityEvent_1_Invoke_mD81A5FC81FD5B0D34212D7ACE42A8BBC15CD7638(G_B7_0, L_14, UnityEvent_1_Invoke_mD81A5FC81FD5B0D34212D7ACE42A8BBC15CD7638_RuntimeMethod_var);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsManager.cs:32>
+		goto IL_001e;
+	}
+}
+// Method Definition Index: 68573
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCountPointsU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m15E6D5AEFE4608591E1CACB302A0BF273CA20D50 (U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68574
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCountPointsU3Ed__7_System_Collections_IEnumerator_Reset_m11199FA06F3F3EC10763E5A326DC4B0B37582726 (U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCountPointsU3Ed__7_System_Collections_IEnumerator_Reset_m11199FA06F3F3EC10763E5A326DC4B0B37582726_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68575
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCountPointsU3Ed__7_System_Collections_IEnumerator_get_Current_m1A6AE8C820EDC45A11AE3B79DB0CB10735899DF8 (U3CCountPointsU3Ed__7_t5C44F002A2F6F443B9DE3D1A0929955E58C697D8* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68576
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsUI_UpdatePoints_m5C472962139A66C65B971C179EC0AD394E907BFE (PointsUI_t9100CB9CFC6830547E6C91988BC72087408514D2* __this, int32_t ___0_points, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsUI.cs:10>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___text;
+		String_t* L_1;
+		L_1 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___0_points), NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_0, L_1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PointsUI.cs:11>
+		return;
+	}
+}
+// Method Definition Index: 68577
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsUI__ctor_m235DE386A6C53D6349CC6EF39C2AD7AC7DDFAC80 (PointsUI_t9100CB9CFC6830547E6C91988BC72087408514D2* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68578
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PowerUpManager_Awake_m172DE434BB51A5A7E97A03933974C38BFF066990 (PowerUpManager_tD294643D6AF9D9169245781685135AE31C443534* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:17>
+		PowerUpManager_SetPlatformsNumber_m3AB8FE76FDB00E1E7EBE6200B2A32BF2EFC32DF6(__this, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 68579
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PowerUpManager_SetPlatformsNumber_m3AB8FE76FDB00E1E7EBE6200B2A32BF2EFC32DF6 (PowerUpManager_tD294643D6AF9D9169245781685135AE31C443534* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:21>
+		int32_t L_0 = __this->___minPlatformsNumber;
+		int32_t L_1 = __this->___maxPlatformsNumber;
+		int32_t L_2;
+		L_2 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(L_0, L_1, NULL);
+		__this->___platformsNumber = L_2;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:22>
+		return;
+	}
+}
+// Method Definition Index: 68580
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PowerUpManager_PlatformPassed_m14A31B292630C42DF1CC665EAA2785BD3FC31311 (PowerUpManager_tD294643D6AF9D9169245781685135AE31C443534* __this, Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* ___0_platform, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:25>
+		int32_t L_0 = __this->___platformsCounter;
+		__this->___platformsCounter = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:26>
+		int32_t L_1 = __this->___platformsCounter;
+		int32_t L_2 = __this->___platformsNumber;
+		if ((((int32_t)L_1) < ((int32_t)L_2)))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:28>
+		Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* L_3 = ___0_platform;
+		PowerUpManager_SpawnPowerUp_mE9A3154BC3146B5CA724854B108E220C1ADF156E(__this, L_3, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:29>
+		__this->___platformsCounter = 0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:30>
+		PowerUpManager_SetPlatformsNumber_m3AB8FE76FDB00E1E7EBE6200B2A32BF2EFC32DF6(__this, NULL);
+	}
+
+IL_0030:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 68581
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PowerUpManager_SpawnPowerUp_mE9A3154BC3146B5CA724854B108E220C1ADF156E (PowerUpManager_tD294643D6AF9D9169245781685135AE31C443534* __this, Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* ___0_platform, const RuntimeMethod* method) 
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:35>
+		Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* L_0 = ___0_platform;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = Platform_HasWeed_m31BBFB470D17B872B092970DC31E06B873518D23(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:35>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:36>
+		InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* L_2 = __this->___powerUpPools;
+		InstantiatePoolObjectsU5BU5D_t7747030F25B30209FB242F5A1057717901CA5921* L_3 = __this->___powerUpPools;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)(((RuntimeArray*)L_3)->max_length)), NULL);
+		NullCheck(L_2);
+		int32_t L_5 = L_4;
+		InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* L_6 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:37>
+		InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* L_7 = L_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_7);
+		InstantiatePoolObjects_InstantiateObject_m2E9FE3D8EF779492C6B796EC5A4BAFA82D4A1CB3(L_7, L_8, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:38>
+		NullCheck(L_7);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
+		L_9 = InstantiatePoolObjects_GetCurrentObject_mF6E6EA80F70701614980E1A9D4E6371C77B58F31_inline(L_7, NULL);
+		V_0 = L_9;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:39>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = V_0;
+		NullCheck(L_10);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_10, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = L_11;
+		NullCheck(L_12);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		float L_15 = __this->___powerUpOffset;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_14, L_15, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_13, L_16, NULL);
+		NullCheck(L_12);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_12, L_17, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:40>
+		Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* L_18 = ___0_platform;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = V_0;
+		NullCheck(L_18);
+		Platform_AddPowerUp_m3D211B1CED2D99020B3A78DCA00186A08547665D(L_18, L_19, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:41>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = V_0;
+		NullCheck(L_20);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
+		L_21 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_20, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = L_21;
+		NullCheck(L_22);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		L_23 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_22, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
+		L_24 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		float L_25 = __this->___powerUpOffset;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		L_26 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_24, L_25, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_23, L_26, NULL);
+		NullCheck(L_22);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_22, L_27, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:42>
+		return;
+	}
+}
+// Method Definition Index: 68582
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PowerUpManager__ctor_m39F2F90AECB10FD824AC14445ED813F8340F76AA (PowerUpManager_tD294643D6AF9D9169245781685135AE31C443534* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:6>
+		__this->___minPlatformsNumber = 5;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:8>
+		__this->___maxPlatformsNumber = 7;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/PowerUpManager.cs:12>
+		__this->___powerUpOffset = (2.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68583
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rotate_Update_m73D585515036D9B7AAD8336BFB8567283CE4C7E7 (Rotate_t3280DFA30ADF04B60D2B142844F3B2364A472EAE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Rotate.cs:9>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->___rotationSpeed;
+		float L_2;
+		L_2 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_1, L_2, NULL);
+		NullCheck(L_0);
+		Transform_Rotate_m2A308205498AFEEA3DF784B1C86E4F7C126CA2EE(L_0, L_3, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Rotate.cs:10>
+		return;
+	}
+}
+// Method Definition Index: 68584
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rotate__ctor_m0EE5CC8EB699542BFC438DC3D547D39E442E9EE4 (Rotate_t3280DFA30ADF04B60D2B142844F3B2364A472EAE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Rotate.cs:6>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (0.0f), (0.0f), (0.0f), NULL);
+		__this->___rotationSpeed = L_0;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68585
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneController_GoToSceneWithFade_m5B55785F9CB2FE1FAA298A57BEFC6B5274F8BB9A (SceneController_tB7F7B89C800597DE2A7040F3D2EFD8824C8043CB* __this, String_t* ___0_sceneName, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SceneController.cs:13>
+		String_t* L_0 = ___0_sceneName;
+		RuntimeObject* L_1;
+		L_1 = SceneController_LoadSceneAfterFade_mD6A50B36EE3A2053E3D633FFAAC63A2E2B2B337B(__this, L_0, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
+		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SceneController.cs:14>
+		return;
+	}
+}
+// Method Definition Index: 68586
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SceneController_LoadSceneAfterFade_mD6A50B36EE3A2053E3D633FFAAC63A2E2B2B337B (SceneController_tB7F7B89C800597DE2A7040F3D2EFD8824C8043CB* __this, String_t* ___0_sceneName, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA* L_0 = (U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA*)il2cpp_codegen_object_new(U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA_il2cpp_TypeInfo_var);
+		U3CLoadSceneAfterFadeU3Ed__3__ctor_m1DCCB861015CBB9D84D2A77DBF4F74B761F7CF0D(L_0, 0, NULL);
+		U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA* L_2 = L_1;
+		String_t* L_3 = ___0_sceneName;
+		NullCheck(L_2);
+		L_2->___sceneName = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___sceneName), (void*)L_3);
+		return L_2;
+	}
+}
+// Method Definition Index: 68587
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneController__ctor_m9716569B18874456A7670484C5001303A31B8907 (SceneController_tB7F7B89C800597DE2A7040F3D2EFD8824C8043CB* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68588
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneAfterFadeU3Ed__3__ctor_m1DCCB861015CBB9D84D2A77DBF4F74B761F7CF0D (U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 68589
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneAfterFadeU3Ed__3_System_IDisposable_Dispose_mE056B241886C874DEF0BE2BDC723E4EF301B7673 (U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 68590
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CLoadSceneAfterFadeU3Ed__3_MoveNext_m96259D7383BB1AD87492B1951536AE949326E77E (U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	SceneController_tB7F7B89C800597DE2A7040F3D2EFD8824C8043CB* V_1 = NULL;
+	AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		SceneController_tB7F7B89C800597DE2A7040F3D2EFD8824C8043CB* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SceneController.cs:17>
+		SceneController_tB7F7B89C800597DE2A7040F3D2EFD8824C8043CB* L_4 = V_1;
+		NullCheck(L_4);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = L_4->___fade;
+		SceneController_tB7F7B89C800597DE2A7040F3D2EFD8824C8043CB* L_6 = V_1;
+		NullCheck(L_6);
+		String_t* L_7 = L_6->___fadeAnimationName;
+		NullCheck(L_5);
+		Animator_Play_m5565F093F0752D4DD9B451686F71C7A8F23F6744(L_5, L_7, 0, (0.0f), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SceneController.cs:18>
+		SceneController_tB7F7B89C800597DE2A7040F3D2EFD8824C8043CB* L_8 = V_1;
+		NullCheck(L_8);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_9 = L_8->___fade;
+		NullCheck(L_9);
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 L_10;
+		L_10 = Animator_GetCurrentAnimatorStateInfo_mD5B526FA605F6CFBC31B7DE36740F6AD1E534CAD(L_9, 0, NULL);
+		V_2 = L_10;
+		float L_11;
+		L_11 = AnimatorStateInfo_get_length_m2FAE317264F7C796427207F8F28E550DB49F9541((&V_2), NULL);
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_12 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_12, L_11, NULL);
+		__this->___U3CU3E2__current = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_12);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_005d:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SceneController.cs:19>
+		String_t* L_13 = __this->___sceneName;
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(L_13, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SceneController.cs:20>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 68591
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLoadSceneAfterFadeU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m473359A6C082CD1FFFA2545465A756CA9DAE6F18 (U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 68592
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadSceneAfterFadeU3Ed__3_System_Collections_IEnumerator_Reset_m1610668650F7D1321F688B9466D60851D04E5191 (U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CLoadSceneAfterFadeU3Ed__3_System_Collections_IEnumerator_Reset_m1610668650F7D1321F688B9466D60851D04E5191_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 68593
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CLoadSceneAfterFadeU3Ed__3_System_Collections_IEnumerator_get_Current_m167EB9BF7A23242CD61D7F70087E8C3AE20DCC79 (U3CLoadSceneAfterFadeU3Ed__3_tEC5B5E6B534129D088F2F0213E9F1AA8C28933BA* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68594
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SoundManager_Awake_mEB5694CE6F2913D14C32C4AF41C936AA76007825 (SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:17>
+		SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* L_0 = ((SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734_StaticFields*)il2cpp_codegen_static_fields_for(SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734_il2cpp_TypeInfo_var))->___instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:18>
+		((SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734_StaticFields*)il2cpp_codegen_static_fields_for(SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734_il2cpp_TypeInfo_var))->___instance = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&((SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734_StaticFields*)il2cpp_codegen_static_fields_for(SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734_il2cpp_TypeInfo_var))->___instance), (void*)__this);
+		return;
+	}
+
+IL_0014:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:19>
+		SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* L_2 = ((SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734_StaticFields*)il2cpp_codegen_static_fields_for(SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734_il2cpp_TypeInfo_var))->___instance;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, __this, NULL);
+		if (!L_3)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:20>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_4, NULL);
+	}
+
+IL_002c:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:23>
+		return;
+	}
+}
+// Method Definition Index: 68595
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SoundManager_Play_mC7E9FE1B018EF1E98D08C9755A00CCEB8339708D (SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* __this, String_t* ___0_soundname, float ___1_volume, float ___2_pitch, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m5CC17878B3AA17C973F24805C2115E4228F9E3F6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mA03FE43375BB7ADFF702A2E6343513B50B3DB8DD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_m6D8159C91FE4513E3489D7B8D777DBB0044FEBED_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Resources_Load_TisAudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_m8D55846FD24C1D133D4EA744BE1E73E054B93A78_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5AC9A4013B4C4E7F2CD2686B02B0B46FB2742629);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B50FDF53D771723FE3EF5DAB73BA100CB487C80);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB909B22DB2C5022FCEEFBBA99A39DBB798ACE88C);
+		s_Il2CppMethodInitialized = true;
+	}
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* V_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:27>
+		Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* L_0 = __this->___audioDictionary;
+		String_t* L_1 = ___0_soundname;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Dictionary_2_ContainsKey_m5CC17878B3AA17C973F24805C2115E4228F9E3F6(L_0, L_1, Dictionary_2_ContainsKey_m5CC17878B3AA17C973F24805C2115E4228F9E3F6_RuntimeMethod_var);
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* L_3 = __this->___audioDictionary;
+		String_t* L_4 = ___0_soundname;
+		NullCheck(L_3);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_5;
+		L_5 = Dictionary_2_get_Item_mA03FE43375BB7ADFF702A2E6343513B50B3DB8DD(L_3, L_4, Dictionary_2_get_Item_mA03FE43375BB7ADFF702A2E6343513B50B3DB8DD_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_0067;
+		}
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:29>
+		String_t* L_7 = __this->___audioPrefix;
+		String_t* L_8 = ___0_soundname;
+		String_t* L_9;
+		L_9 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralB909B22DB2C5022FCEEFBBA99A39DBB798ACE88C, L_7, L_8, NULL);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_10;
+		L_10 = Resources_Load_TisAudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_m8D55846FD24C1D133D4EA744BE1E73E054B93A78(L_9, Resources_Load_TisAudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_m8D55846FD24C1D133D4EA744BE1E73E054B93A78_RuntimeMethod_var);
+		V_0 = L_10;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:30>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_11 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_12)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:32>
+		Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* L_13 = __this->___audioDictionary;
+		String_t* L_14 = ___0_soundname;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_15 = V_0;
+		NullCheck(L_13);
+		Dictionary_2_set_Item_m6D8159C91FE4513E3489D7B8D777DBB0044FEBED(L_13, L_14, L_15, Dictionary_2_set_Item_m6D8159C91FE4513E3489D7B8D777DBB0044FEBED_RuntimeMethod_var);
+		goto IL_0067;
+	}
+
+IL_0051:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:36>
+		String_t* L_16 = ___0_soundname;
+		String_t* L_17;
+		L_17 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral5B50FDF53D771723FE3EF5DAB73BA100CB487C80, L_16, _stringLiteral5AC9A4013B4C4E7F2CD2686B02B0B46FB2742629, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_17, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:37>
+		return;
+	}
+
+IL_0067:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:41>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_18 = __this->___audioS;
+		float L_19 = ___2_pitch;
+		NullCheck(L_18);
+		AudioSource_set_pitch_mD14631FC99BF38AAFB356D9C45546BC16CF9E811(L_18, L_19, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:42>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_20 = __this->___audioS;
+		float L_21 = ___1_volume;
+		NullCheck(L_20);
+		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_20, L_21, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:43>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_22 = __this->___audioS;
+		Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* L_23 = __this->___audioDictionary;
+		String_t* L_24 = ___0_soundname;
+		NullCheck(L_23);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_25;
+		L_25 = Dictionary_2_get_Item_mA03FE43375BB7ADFF702A2E6343513B50B3DB8DD(L_23, L_24, Dictionary_2_get_Item_mA03FE43375BB7ADFF702A2E6343513B50B3DB8DD_RuntimeMethod_var);
+		float L_26 = ___1_volume;
+		NullCheck(L_22);
+		AudioSource_PlayOneShot_mF6FE95C58996B38EF6E7F7482F95F5E15E0AB30B(L_22, L_25, L_26, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 68596
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SoundManager_Play_m522DA432149B67BE46B12F85AD41070F2FCAC7DA (SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* __this, String_t* ___0_soundname, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:47>
+		String_t* L_0 = ___0_soundname;
+		SoundManager_Play_mC7E9FE1B018EF1E98D08C9755A00CCEB8339708D(__this, L_0, (1.0f), (1.0f), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:48>
+		return;
+	}
+}
+// Method Definition Index: 68597
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SoundManager_Play_m9BB7BC8F8256E5AF79B857DB73E7ECD9DF46C00B (SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* __this, String_t* ___0_soundname, float ___1_volume, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:51>
+		String_t* L_0 = ___0_soundname;
+		float L_1 = ___1_volume;
+		SoundManager_Play_mC7E9FE1B018EF1E98D08C9755A00CCEB8339708D(__this, L_0, L_1, (1.0f), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:52>
+		return;
+	}
+}
+// Method Definition Index: 68598
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SoundManager_PlayMusic_mD7E1F3DD4B293A3ECF3E83E3B31EC36216EE703E (SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* __this, String_t* ___0_soundname, float ___1_volume, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_m5CC17878B3AA17C973F24805C2115E4228F9E3F6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_mA03FE43375BB7ADFF702A2E6343513B50B3DB8DD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_m6D8159C91FE4513E3489D7B8D777DBB0044FEBED_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Resources_Load_TisAudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_m8D55846FD24C1D133D4EA744BE1E73E054B93A78_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5AC9A4013B4C4E7F2CD2686B02B0B46FB2742629);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB909B22DB2C5022FCEEFBBA99A39DBB798ACE88C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBB6C5071820F89EFCFA1953E5B0767FC6E7F199F);
+		s_Il2CppMethodInitialized = true;
+	}
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* V_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:56>
+		Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* L_0 = __this->___audioDictionary;
+		String_t* L_1 = ___0_soundname;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Dictionary_2_ContainsKey_m5CC17878B3AA17C973F24805C2115E4228F9E3F6(L_0, L_1, Dictionary_2_ContainsKey_m5CC17878B3AA17C973F24805C2115E4228F9E3F6_RuntimeMethod_var);
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* L_3 = __this->___audioDictionary;
+		String_t* L_4 = ___0_soundname;
+		NullCheck(L_3);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_5;
+		L_5 = Dictionary_2_get_Item_mA03FE43375BB7ADFF702A2E6343513B50B3DB8DD(L_3, L_4, Dictionary_2_get_Item_mA03FE43375BB7ADFF702A2E6343513B50B3DB8DD_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_0067;
+		}
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:58>
+		String_t* L_7 = __this->___audioPrefix;
+		String_t* L_8 = ___0_soundname;
+		String_t* L_9;
+		L_9 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralB909B22DB2C5022FCEEFBBA99A39DBB798ACE88C, L_7, L_8, NULL);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_10;
+		L_10 = Resources_Load_TisAudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_m8D55846FD24C1D133D4EA744BE1E73E054B93A78(L_9, Resources_Load_TisAudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_m8D55846FD24C1D133D4EA744BE1E73E054B93A78_RuntimeMethod_var);
+		V_0 = L_10;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:59>
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_11 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_12;
+		L_12 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_11, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_12)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:61>
+		Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* L_13 = __this->___audioDictionary;
+		String_t* L_14 = ___0_soundname;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_15 = V_0;
+		NullCheck(L_13);
+		Dictionary_2_set_Item_m6D8159C91FE4513E3489D7B8D777DBB0044FEBED(L_13, L_14, L_15, Dictionary_2_set_Item_m6D8159C91FE4513E3489D7B8D777DBB0044FEBED_RuntimeMethod_var);
+		goto IL_0067;
+	}
+
+IL_0051:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:65>
+		String_t* L_16 = ___0_soundname;
+		String_t* L_17;
+		L_17 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralBB6C5071820F89EFCFA1953E5B0767FC6E7F199F, L_16, _stringLiteral5AC9A4013B4C4E7F2CD2686B02B0B46FB2742629, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_17, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:66>
+		return;
+	}
+
+IL_0067:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:70>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_18 = __this->___musicS;
+		NullCheck(L_18);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_18, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:71>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_19 = __this->___musicS;
+		NullCheck(L_19);
+		AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56(L_19, (bool)1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:72>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_20 = __this->___musicS;
+		Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* L_21 = __this->___audioDictionary;
+		String_t* L_22 = ___0_soundname;
+		NullCheck(L_21);
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_23;
+		L_23 = Dictionary_2_get_Item_mA03FE43375BB7ADFF702A2E6343513B50B3DB8DD(L_21, L_22, Dictionary_2_get_Item_mA03FE43375BB7ADFF702A2E6343513B50B3DB8DD_RuntimeMethod_var);
+		NullCheck(L_20);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_20, L_23, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:73>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_24 = __this->___musicS;
+		float L_25 = ___1_volume;
+		NullCheck(L_24);
+		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_24, L_25, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:74>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_26 = __this->___musicS;
+		NullCheck(L_26);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_26, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:75>
+		return;
+	}
+}
+// Method Definition Index: 68599
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SoundManager_PlayMusic_m01FFE3781B9DD2C3395E693C634110919FBDEF66 (SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* __this, String_t* ___0_soundname, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:78>
+		String_t* L_0 = ___0_soundname;
+		SoundManager_PlayMusic_mD7E1F3DD4B293A3ECF3E83E3B31EC36216EE703E(__this, L_0, (1.0f), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:79>
+		return;
+	}
+}
+// Method Definition Index: 68600
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SoundManager_PlayAudioClip_m9B72CE28380973AF4BCDCAFD6D0E214912390736 (SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_audio, float ___1_pitch, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:82>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___audioS;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_1 = ___0_audio;
+		NullCheck(L_0);
+		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_0, L_1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:83>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->___audioS;
+		float L_3 = ___1_pitch;
+		NullCheck(L_2);
+		AudioSource_set_pitch_mD14631FC99BF38AAFB356D9C45546BC16CF9E811(L_2, L_3, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:84>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = __this->___audioS;
+		NullCheck(L_4);
+		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_4, (1.0f), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:85>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = __this->___audioS;
+		NullCheck(L_5);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_5, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:86>
+		return;
+	}
+}
+// Method Definition Index: 68601
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SoundManager_StopMusic_m2E149C3308C3ED7168BAB0511C9C442EBAFC7C1B (SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:89>
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___musicS;
+		NullCheck(L_0);
+		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_0, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:90>
+		return;
+	}
+}
+// Method Definition Index: 68602
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SoundManager_SetMixerVolume_mF22F717E2891218E8BA02ECF77ED9519A42102B5 (SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* __this, float ___0_volume, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral77BD0D6EA8EF056CA5030058B00FB3E36E8802DB);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:94>
+		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = __this->___masterMixer;
+		float L_1 = ___0_volume;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = AudioMixer_SetFloat_m4789959013BE79E4F84F446405914908ADC3F335(L_0, _stringLiteral77BD0D6EA8EF056CA5030058B00FB3E36E8802DB, L_1, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:95>
+		return;
+	}
+}
+// Method Definition Index: 68603
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SoundManager__ctor_m27816732AF730AF6BEDE4A67ABC9D1A094777213 (SoundManager_tCA2CCAC5CDF1BA10E525C01C8D1D0DFAC9BE3734* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m727E5E918360D222F9F00464D65B7C6D649B95C8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/SoundManager.cs:14>
+		Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* L_0 = (Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24*)il2cpp_codegen_object_new(Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m727E5E918360D222F9F00464D65B7C6D649B95C8(L_0, Dictionary_2__ctor_m727E5E918360D222F9F00464D65B7C6D649B95C8_RuntimeMethod_var);
+		__this->___audioDictionary = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___audioDictionary), (void*)L_0);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68604
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Swipe_Update_m527FF51DB0B2450BE415E8CA959B84466182090D (Swipe_tD267E2537F8F7AB11B4D24E8E8E30A106694FC22* __this, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:21>
+		bool L_0 = __this->___isActive;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:21>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:23>
+		bool L_1;
+		L_1 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:25>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
+		L_3 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_2, NULL);
+		__this->___startPosition = L_3;
+	}
+
+IL_0021:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:27>
+		bool L_4;
+		L_4 = Input_GetMouseButtonUp_mBE89CC9C69BBEA9A863819E77EA54411B0476ED6(0, NULL);
+		if (!L_4)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:29>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
+		L_6 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_5, NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:30>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = __this->___startPosition;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
+		L_8 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_6, L_7, NULL);
+		V_0 = L_8;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:32>
+		float L_9;
+		L_9 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline((&V_0), NULL);
+		float L_10 = __this->___minSwipeDistance;
+		if ((!(((float)L_9) >= ((float)L_10))))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:34>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = V_0;
+		Swipe_DetectSwipeDirection_mF8236FFB254A951E15A5DD40B908B2490F4BE7B5(__this, L_11, NULL);
+	}
+
+IL_0055:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:37>
+		return;
+	}
+}
+// Method Definition Index: 68605
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Swipe_DetectSwipeDirection_mF8236FFB254A951E15A5DD40B908B2490F4BE7B5 (Swipe_tD267E2537F8F7AB11B4D24E8E8E30A106694FC22* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_swipeVector, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B4_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B3_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B9_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B8_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B14_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B13_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B19_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B18_0 = NULL;
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:40>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
+		L_0 = Vector2_get_right_m99043ED6B3D5AEA5033313FE3DA9571F39D1B280_inline(NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_swipeVector;
+		float L_2;
+		L_2 = Vector2_SignedAngle_mAE9940DA6BC6B2182BA95C299B2EC19967B7D438_inline(L_0, L_1, NULL);
+		V_0 = L_2;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:42>
+		float L_3 = V_0;
+		if ((!(((float)L_3) >= ((float)(-45.0f)))))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		float L_4 = V_0;
+		if ((!(((float)L_4) <= ((float)(45.0f)))))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:44>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_5 = __this->___onSwipeRight;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_6 = L_5;
+		if (L_6)
+		{
+			G_B4_0 = L_6;
+			goto IL_0027;
+		}
+		G_B3_0 = L_6;
+	}
+	{
+		return;
+	}
+
+IL_0027:
+	{
+		NullCheck(G_B4_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B4_0, NULL);
+		return;
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:46>
+		float L_7 = V_0;
+		if ((!(((float)L_7) > ((float)(45.0f)))))
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		float L_8 = V_0;
+		if ((!(((float)L_8) < ((float)(135.0f)))))
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:48>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_9 = __this->___onSwipeUp;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_10 = L_9;
+		if (L_10)
+		{
+			G_B9_0 = L_10;
+			goto IL_0048;
+		}
+		G_B8_0 = L_10;
+	}
+	{
+		return;
+	}
+
+IL_0048:
+	{
+		NullCheck(G_B9_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B9_0, NULL);
+		return;
+	}
+
+IL_004e:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:50>
+		float L_11 = V_0;
+		if ((((float)L_11) >= ((float)(135.0f))))
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		float L_12 = V_0;
+		if ((!(((float)L_12) <= ((float)(-135.0f)))))
+		{
+			goto IL_006f;
+		}
+	}
+
+IL_005e:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:52>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_13 = __this->___onSwipeLeft;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_14 = L_13;
+		if (L_14)
+		{
+			G_B14_0 = L_14;
+			goto IL_0069;
+		}
+		G_B13_0 = L_14;
+	}
+	{
+		return;
+	}
+
+IL_0069:
+	{
+		NullCheck(G_B14_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B14_0, NULL);
+		return;
+	}
+
+IL_006f:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:54>
+		float L_15 = V_0;
+		if ((!(((float)L_15) < ((float)(-45.0f)))))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		float L_16 = V_0;
+		if ((!(((float)L_16) > ((float)(-135.0f)))))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:56>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_17 = __this->___onSwipeDown;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_18 = L_17;
+		if (L_18)
+		{
+			G_B19_0 = L_18;
+			goto IL_008a;
+		}
+		G_B18_0 = L_18;
+	}
+	{
+		return;
+	}
+
+IL_008a:
+	{
+		NullCheck(G_B19_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B19_0, NULL);
+	}
+
+IL_008f:
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:58>
+		return;
+	}
+}
+// Method Definition Index: 68606
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Swipe__ctor_mE7006DC4181178141D32287E96C7629BE6017C1D (Swipe_tD267E2537F8F7AB11B4D24E8E8E30A106694FC22* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:7>
+		__this->___isActive = (bool)1;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Swipe.cs:9>
+		__this->___minSwipeDistance = (50.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68607
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t WeedManager_get_Weed_mE435F1E03D5458C62E489F684F600C4BE877A24A (WeedManager_t3D54C6322E63FEF5068235125104DBB0BA6A83E1* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/WeedManager.cs:9>
+		int32_t L_0 = __this->___weed;
+		return L_0;
+	}
+}
+// Method Definition Index: 68608
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeedManager_Awake_m23B886BCBBD10743115E0E67DCF6EC06C5D498BE (WeedManager_t3D54C6322E63FEF5068235125104DBB0BA6A83E1* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/WeedManager.cs:12>
+		__this->___weed = 0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/WeedManager.cs:13>
+		return;
+	}
+}
+// Method Definition Index: 68609
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeedManager_AddWeed_mDAF63B87F3F0744DB8AF8B35BA9B4AF42E9C7AD9 (WeedManager_t3D54C6322E63FEF5068235125104DBB0BA6A83E1* __this, int32_t ___0_amount, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/WeedManager.cs:16>
+		int32_t L_0 = __this->___weed;
+		int32_t L_1 = ___0_amount;
+		__this->___weed = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/WeedManager.cs:17>
+		UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_2 = __this->___onWeedChanged;
+		int32_t* L_3 = (int32_t*)(&__this->___weed);
+		String_t* L_4;
+		L_4 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_3, NULL);
+		NullCheck(L_2);
+		UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(L_2, L_4, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/WeedManager.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 68610
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeedManager_SetWeed_m0AFC2C01EAD52CDF15B0AFC2393223B2D2124F39 (WeedManager_t3D54C6322E63FEF5068235125104DBB0BA6A83E1* __this, int32_t ___0_amount, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/WeedManager.cs:21>
+		int32_t L_0 = ___0_amount;
+		__this->___weed = L_0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/WeedManager.cs:22>
+		UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* L_1 = __this->___onWeedChanged;
+		int32_t* L_2 = (int32_t*)(&__this->___weed);
+		String_t* L_3;
+		L_3 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_2, NULL);
+		NullCheck(L_1);
+		UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(L_1, L_3, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/WeedManager.cs:23>
+		return;
+	}
+}
+// Method Definition Index: 68611
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeedManager__ctor_mD00408BA8F58C15833F71D989F2B5F362340E832 (WeedManager_t3D54C6322E63FEF5068235125104DBB0BA6A83E1* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68612
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeedUI_UpdateWeedText_m92F7AF73797A8853807A2C8E056FFFEECA1422DC (WeedUI_tB19DACF0CD48373B49D44CD3C7E610500F634EBC* __this, String_t* ___0_weed, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/WeedUI.cs:14>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->___animator;
+		String_t* L_1 = __this->___animationName;
+		NullCheck(L_0);
+		Animator_Play_m5565F093F0752D4DD9B451686F71C7A8F23F6744(L_0, L_1, 0, (0.0f), NULL);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/WeedUI.cs:15>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___weedText;
+		String_t* L_3 = ___0_weed;
+		NullCheck(L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, L_3);
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/WeedUI.cs:16>
+		return;
+	}
+}
+// Method Definition Index: 68613
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeedUI__ctor_m1B87B0FD10ECEB298D959E34F27F9C30A1522065 (WeedUI_tB19DACF0CD48373B49D44CD3C7E610500F634EBC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6B4163C2C656A3D07B4C866844A11802E45E2F52);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/WeedUI.cs:11>
+		__this->___animationName = _stringLiteral6B4163C2C656A3D07B4C866844A11802E45E2F52;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___animationName), (void*)_stringLiteral6B4163C2C656A3D07B4C866844A11802E45E2F52);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68614
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
+{
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68615
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 68616
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____AEAF98F7D9970CD14FD8E986DD467305AC3986B033C028C5D8D33CA51D462943_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____FAA3127F000CBB60B66C8FF4A6CDD58531520B0D69B9A3EFBBA587AAF9DEA5C4_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)976));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____AEAF98F7D9970CD14FD8E986DD467305AC3986B033C028C5D8D33CA51D462943_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)457));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____FAA3127F000CBB60B66C8FF4A6CDD58531520B0D69B9A3EFBBA587AAF9DEA5C4_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = ((int32_t)25);
+		(&V_0)->___TotalTypes = ((int32_t)26);
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 68617
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 35048
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 35132
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	{
+		float L_0 = ___0_value;
+		float L_1 = ___1_min;
+		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		float L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		float L_4 = ___0_value;
+		float L_5 = ___2_max;
+		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		float L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		float L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		float L_9 = V_2;
+		return L_9;
+	}
+}
+// Method Definition Index: 35135
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 35008
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_b;
+		float L_5 = L_4.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___x;
+		float L_8 = ___2_t;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_5, L_7)), L_8))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_a;
+		float L_10 = L_9.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___1_b;
+		float L_12 = L_11.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___0_a;
+		float L_14 = L_13.___y;
+		float L_15 = ___2_t;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, L_14)), L_15))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___0_a;
+		float L_17 = L_16.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___1_b;
+		float L_19 = L_18.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___0_a;
+		float L_21 = L_20.___z;
+		float L_22 = ___2_t;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_19, L_21)), L_22))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_0;
+		V_1 = L_23;
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_1;
+		return L_24;
+	}
+}
+// Method Definition Index: 35043
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___upVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 35050
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 35044
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_down_mF62B2AE7C5AC31EAC9CB62797C7190C90A7A8599_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___downVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 35045
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_left_m8C1116485A9E689760AEE1142F5977852278B7E1_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___leftVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 35046
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___rightVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 35047
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_9, L_11));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 35039
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 35054
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_lhs;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_rhs;
+		bool L_2;
+		L_2 = Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline(L_0, L_1, NULL);
+		return (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 35030
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_18;
+		L_18 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))))));
+		V_3 = ((float)L_18);
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		float L_19 = V_3;
+		return L_19;
+	}
+}
+// Method Definition Index: 35073
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
+		return L_0;
+	}
+}
+// Method Definition Index: 68469
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Character_get_IsActive_m9EB7899E6937EC256602700794561E2779AF58B9_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:49>
+		bool L_0 = __this->___isActive;
+		return L_0;
+	}
+}
+// Method Definition Index: 68464
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Character_get_IsFlying_mFB9C0F3A3DDB49038E539E6E30EE6855ACD449DA_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:43>
+		bool L_0 = __this->___isFlying;
+		return L_0;
+	}
+}
+// Method Definition Index: 68465
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Character_set_IsFlying_mF91790BCE1C02F0A6FCC02CF6D34659A6FBDFADD_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:44>
+		bool L_0 = ___0_value;
+		__this->___isFlying = L_0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 68467
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* Character_get_CharacterRigidbody_m7B3F5432D3D75F31BE0C3EA73F1C430397EC9CBB_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:47>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___characterRigidBody;
+		return L_0;
+	}
+}
+// Method Definition Index: 68468
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* Character_get_CharacterAnimator_m9ABB864EE44B14D40FBF8992AD52425B69F306FF_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:48>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->___characterAnimator;
+		return L_0;
+	}
+}
+// Method Definition Index: 68466
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* Character_get_CharacterData_m77C135E0C6E1EE87D449DF12E2E6BB41C48B72E2_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:46>
+		CharacterData_tC4B832A8483E8F262CFDEF269021BE3E0312BA5D* L_0 = __this->___characterData;
+		return L_0;
+	}
+}
+// Method Definition Index: 68462
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Character_get_JumpForce_mB5F57DDC056EA1A11B868D68FCAEB4DEFC755CA6_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:17>
+		float L_0 = __this->___jumpForce;
+		return L_0;
+	}
+}
+// Method Definition Index: 68463
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Character_set_JumpForce_m9D38872606D16B887CB7E275110B9A181B71C44F_inline (Character_tAF47BB8D49829E1464C3692B366FC33C5B38CD61* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:18>
+		float L_0 = ___0_value;
+		__this->___jumpForce = L_0;
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Character.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 33537
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Bounds_get_size_m0699A53A55A78B3201D7270D6F338DFA91B6FAD4_inline (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_Extents);
+		float L_1 = L_0->___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, (2.0f)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_Extents);
+		float L_3 = L_2->___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_3, (2.0f)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_4 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_Extents);
+		float L_5 = L_4->___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_5, (2.0f)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 35041
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___forwardVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 68503
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* InstantiatePoolObjects_GetCurrentObject_mF6E6EA80F70701614980E1A9D4E6371C77B58F31_inline (InstantiatePoolObjects_tB1BBC4D6DC0646EC785F21D4D22697649F68F2BA* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/InstantiatePoolObjects.cs:50>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___currentObject;
+		return L_0;
+	}
+}
+// Method Definition Index: 68544
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Platform_get_ColliderSize_m44D74638ED1913FE6B6CB7B8E54F3F01CD81E289_inline (Platform_tB273231B032B66E0A0CA476D2B180D1705DC80D7* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/EQUIPO 54/Documents/Unity/Space Invaders/SubwaySurfers/Assets/Scripts/Platform.cs:10>
+		float L_0 = __this->___colliderSize;
+		return L_0;
+	}
+}
+// Method Definition Index: 35051
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___0_d;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___0_d;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___0_d;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 35042
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_back_mCA5A84170E8DE5CE38C0551B4CCAD647BF215E57_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___backVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 35116
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) < ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 35012
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 35186
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_v;
+		float L_1 = L_0.___x;
+		(&V_0)->___x = L_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_v;
+		float L_3 = L_2.___y;
+		(&V_0)->___y = L_3;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 35177
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = V_0;
+		return L_8;
+	}
+}
+// Method Definition Index: 35167
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_4;
+		L_4 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3))))));
+		return ((float)L_4);
+	}
+}
+// Method Definition Index: 35193
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_right_m99043ED6B3D5AEA5033313FE3DA9571F39D1B280_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___rightVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 35171
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_SignedAngle_mAE9940DA6BC6B2182BA95C299B2EC19967B7D438_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_from, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_to, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	{
+		float L_0;
+		L_0 = Vector2_Angle_mB5E31E6EB5E445A53B8E777BD9647B02DCB49931_inline((&___0_from), (&___1_to), NULL);
+		V_0 = L_0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_from;
+		float L_2 = L_1.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___1_to;
+		float L_4 = L_3.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = ___0_from;
+		float L_6 = L_5.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = ___1_to;
+		float L_8 = L_7.___x;
+		float L_9;
+		L_9 = Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_2, L_4)), ((float)il2cpp_codegen_multiply(L_6, L_8)))), NULL);
+		V_1 = L_9;
+		float L_10 = V_0;
+		float L_11 = V_1;
+		V_2 = ((float)il2cpp_codegen_multiply(L_10, L_11));
+		goto IL_0032;
+	}
+
+IL_0032:
+	{
+		float L_12 = V_2;
+		return L_12;
+	}
+}
+// Method Definition Index: 20788
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+	}
+	{
+		int32_t L_1 = __this->____size;
+		V_0 = L_1;
+		__this->____size = 0;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = __this->____items;
+		int32_t L_4 = V_0;
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
+		return;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+// Method Definition Index: 20829
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 20780
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 35134
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 35053
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_lhs;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_rhs;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_lhs;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		V_3 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))));
+		float L_18 = V_3;
+		V_4 = (bool)((((float)L_18) < ((float)(9.99999944E-11f)))? 1 : 0);
+		goto IL_0043;
+	}
+
+IL_0043:
+	{
+		bool L_19 = V_4;
+		return L_19;
+	}
+}
+// Method Definition Index: 35170
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Angle_mB5E31E6EB5E445A53B8E777BD9647B02DCB49931_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_from, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___1_to, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	float V_3 = 0.0f;
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_0 = ___0_from;
+		float L_1;
+		L_1 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline(L_0, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2 = ___1_to;
+		float L_3;
+		L_3 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline(L_2, NULL);
+		V_0 = ((float)il2cpp_codegen_multiply(L_1, L_3));
+		float L_4 = V_0;
+		V_2 = (bool)((((float)L_4) < ((float)(1.0E-30f)))? 1 : 0);
+		bool L_5 = V_2;
+		if (!L_5)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		V_3 = (0.0f);
+		goto IL_0056;
+	}
+
+IL_0023:
+	{
+		float L_6 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_7;
+		L_7 = sqrt(((double)L_6));
+		V_0 = ((float)L_7);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_8 = ___0_from;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_9 = ___1_to;
+		float L_10;
+		L_10 = Vector2_Dot_mD510FC4765B9CF4F06E6AC6FEC0215F401EFD4FB_inline(L_8, L_9, NULL);
+		float L_11 = V_0;
+		float L_12;
+		L_12 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)(L_10/L_11)), (-1.0f), (1.0f), NULL);
+		V_1 = L_12;
+		float L_13 = V_1;
+		double L_14;
+		L_14 = acos(((double)L_13));
+		V_3 = ((float)il2cpp_codegen_multiply(((float)L_14), (57.2957802f)));
+		goto IL_0056;
+	}
+
+IL_0056:
+	{
+		float L_15 = V_3;
+		return L_15;
+	}
+}
+// Method Definition Index: 35131
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_f;
+		if ((((float)L_0) >= ((float)(0.0f))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		G_B3_0 = (-1.0f);
+		goto IL_0015;
+	}
+
+IL_0010:
+	{
+		G_B3_0 = (1.0f);
+	}
+
+IL_0015:
+	{
+		V_0 = G_B3_0;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 35168
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3))));
+	}
+}
+// Method Definition Index: 35166
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Dot_mD510FC4765B9CF4F06E6AC6FEC0215F401EFD4FB_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_0 = ___0_lhs;
+		float L_1 = L_0->___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2 = ___1_rhs;
+		float L_3 = L_2->___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_4 = ___0_lhs;
+		float L_5 = L_4->___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_6 = ___1_rhs;
+		float L_7 = L_6->___y;
+		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7))));
+	}
+}
